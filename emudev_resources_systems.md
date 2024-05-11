@@ -94,6 +94,7 @@ There are no "full" tutorials for other systems, so using references will be a b
  - <https://github.com/ladystarbreeze/gba-tests/tree/master/dma-test>
  - <https://github.com/mgba-emu/suite>
  - <https://github.com/nba-emu/hw-test>
+ - <https://gbadev.net/gbadoc/>
 - [mGBA blog](https://mgba.io) (particularly the "development" and "emulation" tags)
 - Homebrew development:
  - <https://patater.com/gbaguy/gbaasm.htm>
@@ -110,6 +111,7 @@ There are no "full" tutorials for other systems, so using references will be a b
  - <https://tcrf.net/Aging_Card_NTR>
 - [Sample homebrew programs](https://github.com/devkitPro/nds-examples)
 - [Arisotura's blog](https://melonds.kuribo64.net)
+- [Ongoing rasterizer timing research](https://melonds.kuribo64.net/board/thread.php?pid=6560#6560)
 
 ## Nintendo 3DS
 - See relevant ARM resources below (the 3DS's ARM11 MPCore implements ARMv6K, not plain ARMv6, so you'll have toat the ARMv7-AR manual too for the few additions; the ARM9 is the same as on the Nintendo DS)
@@ -121,6 +123,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [CTRPF cheat code documentation](https://gist.github.com/Nanquitas/d6c920a59c757cf7917c2bffa76de860)
 - [Subv's additional findings on the kernel's threading system](https://gist.github.com/Subv/02f29bd9f1e5deb7aceea1e8f019c8f4) (meant to complement the relevant 3DBrew page)
 - [Simple hommebrew userland tests](https://github.com/wheremyfoodat/Panda3DS/tree/master/tests)
+- [DSP1 binary loader for Ghidra](https://github.com/SachinVin/Dsp1LoaderGhidra) (For DSP .cdc firmware files, you can dump them from hardware or Panda3DS)
+- [Teak DSP Ghidra SLEIGH plugin](https://github.com/SachinVin/TeakLite-SLEIGH/tree/main)
 
 ## Nintendo Entertainment System
 - See 65xx family resources
@@ -171,15 +175,21 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Other resources](https://n64.dev)
 - 64DD: <https://github.com/LuigiBlood/64dd/wiki>
 
-## Nintendo GameCube
+## Nintendo GameCube / Nintendo Wii
 - See PowerPC resources
 - YAGCD: <http://hitmen.c02.at/files/yagcd/index.html> (mirror: <https://www.gc-forever.com/yagcd>)
 - [GameCube resources GitHub repository](https://github.com/DenSinH/GameCubeResources)
+- [Gamecube Apploader RE](https://www.gc-forever.com/wiki/index.php?title=Apploader)
 - [GC/Wii games with debug symbols](https://wiki.dolphin-emu.org/index.php?title=Ships_with_Debugging_Symbols)
 - [Dolphin hardware tests](https://github.com/dolphin-emu/hwtests)
 - [GC/Wii games that use the Zelda DSP microcode](https://wiki.dolphin-emu.org/index.php?title=Category:Zelda_ucode_games)
 - [Gekko/Broadway/Espresso Ghidra plugin](https://github.com/aldelaro5/ghidra-gekko-broadway-lang)
 - [DSP HLE (Dolphin)](https://blog.lse.epita.fr/2012/12/03/emulating-the-gamecube-audio-processing-in-dolphin.html)
+- [Dolwin docs](https://github.com/ogamespec/dolwin-docs)
+
+## Nintendo Wii U
+- See PowerPC resources
+- [WiiUBrew](https://wiiubrew.org/wiki/Main_Page)
 
 ## PlayStation 1
 - See MIPS resources
@@ -192,6 +202,8 @@ There are no "full" tutorials for other systems, so using references will be a b
  - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=http://wiki.psxdev.ru/index.php/BIOS)
 - [The PSX GPU texture pipeline and how to emulate it](https://www.reddit.com/r/EmuDev/comments/fmhtcn)
 - [PSX EXE header](http://www.emulatronia.com/doctec/consolas/psx/exeheader.txt) (also see "CDROM File Formats" section in psx-spx)
+- [Difficult-to-emulate games](https://github.com/stenzek/duckstation/wiki/Difficult-to-Emulate-Games)
+- [Dithering on the PS1](https://www.youtube.com/watch?v=3XDyQnY5GHI)
 - [PSX system software reverse engineering project](https://github.com/ogamespec/psxdev/tree/master/reverse)
 - [Other PSX documentation (including a CPU reference manual)](http://hitmen.c02.at/html/psx_docs.html)
 - [PSX GTE docs/reverse engineering](https://github.com/ogamespec/pops-gte)
@@ -222,6 +234,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## PlayStation Portable
 - <http://hitmen.c02.at/files/yapspd/psp_doc/>
 - <https://www.ppsspp.org/docs/psp-hardware/>
+- [Allegrex Ghidra plugin](https://github.com/kotcrab/ghidra-allegrex)
+
 ## Sega Game Gear
 - [VDP test ROM](https://www.retrorgb.com/game-gear-vdp-test-software.html)
 - [Button test ROM](https://github.com/GameGearSamples/ButtonTest)
@@ -361,6 +375,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## PowerPC
 - [IBM's PowerPC Architecture Book](https://www.ibm.com/developerworks/systems/library/es-archguide-v2.html)
 - [VMX128-type opcodes found on the Xbox 360 processor](http://biallas.net/doc/vmx128/vmx128.txt)
+
 ## ARM
 - [ARM instruction set info for the ARM7TDMI-S](https://vision.gel.ulaval.ca/~jflalonde/cours/1001/h17/docs/arm-instructionset.pdf) (not the full document, which apparently can't be found anymore)
 - [ARM7TDMI datasheet](https://www.dwedit.org/files/ARM7TDMI.pdf) (contains info about ARM and thumb instruction sets)
@@ -372,6 +387,10 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [ARMv6 Reference Manual](https://documentation-service.arm.com/static/5f1060400daa596235e7a60a)
 - [ARMv7-A/R Reference Manual](https://documentation-service.arm.com/static/5f1074ce0daa596235e834b5)
 - [ARM11 MPCore Technical Reference Manual](https://documentation-service.arm.com/static/5e8e1e0388295d1e18d368b2)
+
+## ARM64
+- [ARMv8 and ARMv9 A-Profile Architecture manual](https://developer.arm.com/documentation/ddi0487/latest/)
+- [ARM64 cheatsheet](https://github.com/wheremyfoodat/Panda3DS/blob/cdn/docs/arm64_cheat_sheet.pdf)
 
 ## x86
 - [8086 family user's manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
