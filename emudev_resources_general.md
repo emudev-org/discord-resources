@@ -83,6 +83,9 @@ If you contribute to a project that has its own community/resources, you should 
     - Frida: <https://frida.re>
     - <http://reddit.com/r/ReverseEngineering> and <http://reddit.com/r/REGames>
 
+**Contributing**
+
+Have something to add to this list? Submit a pull request [Here](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_general.md)
 
 
 **Note: If you're new here, scroll up to the top!**
