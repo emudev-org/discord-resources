@@ -174,7 +174,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 - See MIPS resources
 - [Guide to writing a PSX emulator](https://github.com/simias/psx-guide)
  - [Rendered](https://cdn.discordapp.com/attachments/492036343376117778/492037613721616406/guide.PDF)
-- [psx-spx](https://problemkaputt.de/psx-spx.htm)
+- [psx-spx (original)](https://problemkaputt.de/psx-spx.htm)
+- [psx-spx (modernized and actively maintained)](https://psx-spx.consoledev.net/)
 - [PSX reverse engineering project](https://github.com/ogamespec/psxdev/tree/master/reverse)
 - [BIOS info](http://wiki.psxdev.ru/index.php/BIOS)
  - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=http://wiki.psxdev.ru/index.php/BIOS)
@@ -184,7 +185,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Other PSX documentation (including a CPU reference manual)](http://hitmen.c02.at/html/psx_docs.html)
 - [PSX GTE docs/reverse engineering](https://github.com/ogamespec/pops-gte)
 - [PSX MDEC & CD-ROM info](https://github.com/m35/jpsxdec/blob/readme/jpsxdec/PlayStation1_STR_format.txt)
-- [Dithering on the PSX](https://www.youtube.com/watch?v=3XDyQnY5GHI)
 - [PlayStation emulator development info](https://drhell.web.fc2.com/ps1/index.html)
  - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=http%3A%2F%2Fdrhell.web.fc2.com%2Fps1%2Findex.html)
 - Test ROMs:
@@ -192,6 +192,7 @@ There are no "full" tutorials for other systems, so using references will be a b
  - <https://github.com/PeterLemon/PSX>
  - <https://github.com/JaCzekanski/ps1-tests>
  - <https://github.com/simias/psx-hardware-tests/tree/master/tests>
+ - <https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips/tests>
  - [PSX demos](https://www.pouet.net/prodlist.php?order=thumbup&platform%5B0%5D=Playstation&page=1)
 - Open-source BIOS: <https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips/openbios>
 
@@ -209,7 +210,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## PlayStation Portable
 - <http://hitmen.c02.at/files/yapspd/psp_doc/>
-
+- <https://www.ppsspp.org/docs/psp-hardware/>
 ## Sega Game Gear
 - [VDP test ROM](https://www.retrorgb.com/game-gear-vdp-test-software.html)
 - [Button test ROM](https://github.com/GameGearSamples/ButtonTest)
@@ -370,6 +371,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [x86 Intrinsics](https://software.intel.com/sites/landingpage/IntrinsicsGuide)
 - [Sandpile](https://sandpile.org)
 - [Opcode and Instruction Reference](http://ref.x86asm.net/coder.html)
+- [x86-64 opcode table](http://ref.x86asm.net/coder64.html)
+- [OSDev wiki encoding page](https://wiki.osdev.org/X86-64_Instruction_Encoding)
 - <https://github.com/TomHarte/ProcessorTests/tree/main/8088>
 
 ## MIPS
