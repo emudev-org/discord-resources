@@ -416,3 +416,9 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [460GX Chipset Developer's Manual](https://cdn.discordapp.com/attachments/698838582181363752/805814367097716766/460gx.pdf) ([original](https://www.manualslib.com/manual/77665/Intel-460gx.html))
 - [Intel® E8870IO Server I/O Hub Datasheet](https://cdn.discordapp.com/attachments/698838582181363752/805814970977747015/e8870io-server-io-hub-datasheet.pdf) ([original](https://www.intel.com/content/dam/doc/datasheet/e8870io-server-io-hub-datasheet.pdf))
 - [Intel® E8870 SNC Datasheet](https://cdn.discordapp.com/attachments/698838582181363752/805815757861945344/e8870-snc-datasheet.pdf) ([original](https://pccomponents.com/datasheets/INTEL-251112.PDF))
+
+**Contributing**
+
+Have something to add to this list? Submit a pull request [here](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_systems.md).
+
+**Note: If you're new here, scroll up to the top!**
