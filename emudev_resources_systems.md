@@ -169,6 +169,11 @@ There are no "full" tutorials for other systems, so using references will be a b
 - See PowerPC resources
 - YAGCD: <http://hitmen.c02.at/files/yagcd/index.html> (mirror: <https://www.gc-forever.com/yagcd>)
 - [GameCube resources GitHub repository](https://github.com/DenSinH/GameCubeResources)
+- [GC/Wii games with debug symbols](https://wiki.dolphin-emu.org/index.php?title=Ships_with_Debugging_Symbols)
+- [Dolphin hardware tests](https://github.com/dolphin-emu/hwtests)
+- [GC/Wii games that use the Zelda DSP microcode](https://wiki.dolphin-emu.org/index.php?title=Category:Zelda_ucode_games)
+- [Gekko/Broadway/Espresso Ghidra plugin](https://github.com/aldelaro5/ghidra-gekko-broadway-lang)
+- [DSP HLE (Dolphin)](https://blog.lse.epita.fr/2012/12/03/emulating-the-gamecube-audio-processing-in-dolphin.html)
 
 ## PlayStation 1
 - See MIPS resources
