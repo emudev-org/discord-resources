@@ -115,6 +115,12 @@ There are no "full" tutorials for other systems, so using references will be a b
 - See relevant ARM resources below (the 3DS's ARM11 MPCore implements ARMv6K, not plain ARMv6, so you'll have toat the ARMv7-AR manual too for the few additions; the ARM9 is the same as on the Nintendo DS)
 - [GBATEK](https://problemkaputt.de/gbatek.htm)
 - [The 3DBrew wiki](https://www.3dbrew.org/wiki/Main_Page)
+- [Libctru demos](https://github.com/devkitPro/3ds-examples)
+- [CRO documentation](https://gist.github.com/wwylele/325d53ee6a0f1dff6aa3473377335d93)
+- [Audio tests](https://github.com/Panda3DS-emu/3ds-audio)
+- [CTRPF cheat code documentation](https://gist.github.com/Nanquitas/d6c920a59c757cf7917c2bffa76de860)
+- [Subv's additional findings on the kernel's threading system](https://gist.github.com/Subv/02f29bd9f1e5deb7aceea1e8f019c8f4) (meant to complement the relevant 3DBrew page)
+- [Simple hommebrew userland tests](https://github.com/wheremyfoodat/Panda3DS/tree/master/tests)
 
 ## Nintendo Entertainment System
 - See 65xx family resources
