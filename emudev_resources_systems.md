@@ -386,6 +386,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 **Contributing**
 
-Have something to add to this list? Submit a pull request [Here](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_systems.md)
+Have something to add to this list? Submit a pull request [here](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_systems.md).
 
 **Note: If you're new here, scroll up to the top!**

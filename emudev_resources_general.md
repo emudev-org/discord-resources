@@ -85,7 +85,7 @@ If you contribute to a project that has its own community/resources, you should 
 
 **Contributing**
 
-Have something to add to this list? Submit a pull request [Here](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_general.md)
+Have something to add to this list? Submit a pull request [here](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_general.md).
 
 
 **Note: If you're new here, scroll up to the top!**
