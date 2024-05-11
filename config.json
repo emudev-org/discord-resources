@@ -1,7 +1,12 @@
 [
     {
-        "guild_id":  465585922579103744,
+        "guild_id": 465585922579103744,
         "channel_id": 482208284032499713 ,
         "file": "emudev_resources_systems.md"
+    },
+    {
+        "guild_id":   465585922579103744,
+        "channel_id": 641335509393866753,
+        "file": "emudev_resources_general.md"
     }
 ]
