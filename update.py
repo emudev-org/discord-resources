@@ -24,13 +24,14 @@ intents.message_content = True
 client = discord.Client(intents=intents)
 
 def get_split_contents(filename):
+    split_on = "\n"
     with open(filename, "r") as f:
         messages = []
-        chunks = f.read().split("\n")
+        chunks = f.read().split(split_on)
         while len(chunks) > 0:
             message = ""
-            while len(chunks) > 0 and len(message + "\n" + chunks[0]) < MAX_MESSAGE_LENGTH:
-                message += "\n" + chunks.pop(0)
+            while len(chunks) > 0 and len(message + split_on + chunks[0]) < MAX_MESSAGE_LENGTH:
+                message += split_on + chunks.pop(0)
             messages.append(message)
         return messages
 
