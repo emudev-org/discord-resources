@@ -58,9 +58,50 @@ If you contribute to a project that has its own community/resources, you should 
 **FPGAs**
 - <https://zipcpu.com>
 - <https://www.walknsqualk.com/post/014-tiny-fpga-bx>
+- [Short introduction on writing HDLs, with Verilog puzzles you can solve online](https://hdlbits.01xz.net/wiki/Main_Page)
 
 **Integrated Circuits**
 - <https://www.icreversing.com/chips> (IC library)
+
+**Useful libraries**
+- Multimedia libraries (For Audio/Video output, keyboard/controller input, etc)
+  - [SDL2](https://www.libsdl.org/): C library for graphics, audio, input, threading, and more. Has bindings for several languages
+  - [SFML](https://www.sfml-dev.org/): C++ library for video and input. Mostly aimed at gamedevs, but can be used for emudev too. Audio API generally considered unfit for emudev.
+  - [Miniaudio](https://github.com/mackron/miniaudio): Single-header C audio library, supports all major desktop OSs + Android/iOS.
+
+- UI frameworks:
+  - [Qt](https://www.qt.io/): C++ GUI framework with bindings in several languages.
+  - [Dear ImGui](https://github.com/ocornut/imgui): Immediate-mode GUI framework, focusing on ease-of-use
+    - [ImGui Club](https://github.com/ocornut/imgui_club): Collection of useful ImGui widgets, including a memory editor
+  - [Avalonia](https://github.com/AvaloniaUI/Avalonia): Portable .NET GUI framework
+  - [GTK](https://www.gtk.org/)
+  - [Nuklear](https://github.com/vurtun/nuklear): Single header C immediate mode GUI library
+  - [WxWidgets](https://www.wxwidgets.org/)
+
+- Runtime code generation (emitter) libraries for use in JITs and assemblers:
+  - [Xbyak](https://github.com/herumi/xbyak): Single header C++ x86-32 and x86-64 emitter
+  - [Oaknut](https://github.com/merryhime/oaknut): Single header C++ arm64 emitter
+  - [Dynasm](https://github.com/Esvandiary/DynASM): x86-32/x86-64/arm32/arm64/PowerPC/MIPS emitter written in C
+  - [Luma](https://github.com/wheremyfoodat/Luma): Single header C++ 32-bit PowerPC emitter, with support for the Paired Singles ISA in the Gamecube/Wii/Wii U CPUs
+  - [Vixl](https://github.com/Linaro/vixl): C++ arm32 and arm64 emitter for x86-32, x86-64 and arm64.
+  - [asmjit](https://asmjit.com/): C++ emitter 
+  - [Dynasm-rs](https://github.com/CensoredUsername/dynasm-rs): A dynasm-like library for Rust, using proc-macros
+
+- Libraries for handling configuration files, game databases, etc:
+  - [nlohmann/json](https://github.com/nlohmann/json): JSON for modern C++
+  - [toml11](https://github.com/ToruNiina/toml11): TOML for modern C++
+  - [mINI](https://github.com/metayeti/mINI): Single header C++ library for manipulating INI files
+
+- Cryptography libraries for systems with crypto hardware:
+  - [cryptopp](https://github.com/weidai11/cryptopp)
+  - [OpenSSL](https://www.openssl.org/)
+
+- [elfio](https://github.com/serge1/ELFIO): C++ library for reading and creating ELF files, useful for emulators that need to load ELFs or create ELFs for debugging purposes.
+- [Capstone](https://github.com/capstone-engine/capstone): C disassembler library with support for too many architectures to enumerate
+- [Keystone](https://github.com/keystone-engine/keystone): C assembler framework
+- [glm](https://github.com/g-truc/glm): C++ library for faciliating vector, matrix and quaternion math. Particularly useful for graphics emulation.
+- [Hips](https://github.com/wheremyfoodat/Hips): Single header C++ library for applying IPS, BPS and UPS patches
+- [Discord-RPC](https://github.com/discord/discord-rpc): C++ library for adding discord RPC to your emulator, because we all love free advertisements.
 
 ---
 
