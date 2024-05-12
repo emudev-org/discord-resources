@@ -129,7 +129,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Teakra](https://github.com/wwylele/teakra): Teak DSP assembly, disassembly and emulation library
 - [3DS hacking guide](https://3ds.hacks.guide/)
 
-
 ## Nintendo Entertainment System
 - See 65xx family resources
 - [6502 instruction set reference](https://www.masswerk.at/6502/6502_instruction_set.html)
@@ -331,7 +330,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Homebrew Development Kit](http://sebastianmihai.com/neogeo-pocket-ngcollector.html)
 - [More Homebrew](https://thor.pdroms.de/#ngpcdev)
 
-
 ## Pokémon Mini
 - <https://www.pokemon-mini.net/documentation>
 ⠀
@@ -379,10 +377,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 - <https://github.com/redcode/Z80/wiki/Tests>
 
 ## Misc
-- Generated instruction tests for the SM83 (Gameboy) / Z80 / SPC700 (SNES & misc)
-<https://github.com/raddad772/jsmoo/tree/main/misc/tests/GeneratedTests>
-- Instruction tests in json format for 65[c]02, 65816, 68000 and SPC700:
-<https://github.com/TomHarte/ProcessorTests>
+
+- [Single Step Tests](https://github.com/SingleStepTests)
 
 ## Motorola 68k
 - [Instruction set reference](http://wpage.unina.it/rcanonic/didattica/ce1/docs/68000.pdf) (just a summary for each instruction, doesn't respond to https://)
