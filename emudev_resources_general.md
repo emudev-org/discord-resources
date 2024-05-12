@@ -81,7 +81,7 @@ For emulating 3D systems.
     - [ImGui Club](https://github.com/ocornut/imgui_club): Collection of useful ImGui widgets, including a memory editor
   - [Avalonia](https://github.com/AvaloniaUI/Avalonia): Portable .NET GUI framework
   - [GTK](https://www.gtk.org/)
-  - [Nuklear](https://github.com/vurtun/nuklear): Single header C immediate mode GUI library
+  - [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear): Single header C immediate mode GUI library
   - [WxWidgets](https://www.wxwidgets.org/)
 
 - Runtime code generation (emitter) libraries for use in JITs and assemblers:
