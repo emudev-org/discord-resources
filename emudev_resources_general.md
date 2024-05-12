@@ -72,6 +72,7 @@ If you contribute to a project that has its own community/resources, you should 
 - UI frameworks:
   - [Qt](https://www.qt.io/): C++ GUI framework with bindings in several languages.
   - [Dear ImGui](https://github.com/ocornut/imgui): Immediate-mode GUI framework, focusing on ease-of-use
+    - [ImGui Club](https://github.com/ocornut/imgui_club): Collection of useful ImGui widgets, including a memory editor
   - [Avalonia](https://github.com/AvaloniaUI/Avalonia): Portable .NET GUI framework
   - [GTK](https://www.gtk.org/)
   - [Nuklear](https://github.com/vurtun/nuklear): Single header C immediate mode GUI library
@@ -91,10 +92,14 @@ If you contribute to a project that has its own community/resources, you should 
   - [toml11](https://github.com/ToruNiina/toml11): TOML for modern C++
   - [mINI](https://github.com/metayeti/mINI): Single header C++ library for manipulating INI files
 
+- Cryptography libraries for systems with crypto hardware:
+  - [cryptopp](https://github.com/weidai11/cryptopp)
+  - [OpenSSL](https://www.openssl.org/)
+
 - [elfio](https://github.com/serge1/ELFIO): C++ library for reading and creating ELF files, useful for emulators that need to load ELFs or create ELFs for debugging purposes.
-- [glm](https://github.com/g-truc/glm): C++ library for faciliating vector, matrix and quaternion math. Particularly useful for graphics emulation.
 - [Capstone](https://github.com/capstone-engine/capstone): C disassembler library with support for too many architectures to enumerate
 - [Keystone](https://github.com/keystone-engine/keystone): C assembler framework
+- [glm](https://github.com/g-truc/glm): C++ library for faciliating vector, matrix and quaternion math. Particularly useful for graphics emulation.
 - [Hips](https://github.com/wheremyfoodat/Hips): Single header C++ library for applying IPS, BPS and UPS patches
 - [Discord-RPC](https://github.com/discord/discord-rpc): C++ library for adding discord RPC to your emulator, because we all love free advertisements.
 
