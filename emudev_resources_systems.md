@@ -316,6 +316,17 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Development wiki](https://wiki.neogeodev.org/index.php?title=Main_Page) (has overviews of every piece of hardware)
 - [Sample ROMs](https://github.com/PeterLemon/NEO-GEO)
 
+## Neo Geo Pocket (Color)
+- [Toshiba TLCS-900/H CPU Manual](https://toshiba.semicon-storage.com/info/catalog_en_20010831_ALT00146.pdf?did=7768)
+- [TMP95CS64F Manual](https://datasheetspdf.com/pdf-file/1217217/Toshiba/TMP95CS64F/1) (thought to be the microcontroller the NGPC is based around)
+- [NGPC Memory Map/Technical Reference](https://github.com/OpenEmu/NeoPop-Core/blob/master/Core/docs/Memory%20Map.txt)
+ - Older similar documents:
+ - <http://neopocott.emuunlim.com/docs/tech-11.txt>
+ - <http://devrs.com/ngp/files/ngpctech.txt>
+- [Homebrew Development Kit](http://sebastianmihai.com/neogeo-pocket-ngcollector.html)
+- [More Homebrew](https://thor.pdroms.de/#ngpcdev)
+
+
 ## Pokémon Mini
 - <https://www.pokemon-mini.net/documentation>
 ⠀
