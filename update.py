@@ -69,20 +69,30 @@ async def on_ready():
 
         print(f"Updating channel {channel.name} in {guild.name}...")
 
-        # delete all messages sent by this bot
-        async for message in channel.history(limit = 100):
-            if message.author == client.user:
-                print(f"Deleting message sent by me...")
-                await message.delete()
+        old_messages = []
 
+        # retrieve all messages sent by this bot from oldest to newest
+        async for message in channel.history(limit = 100, oldest_first = True):
+            if message.author == client.user:
+                old_messages.append(message)
+
+        i = 0
         # Send new messages from the file
         for message in channel_config["messages"]:
-            await channel.send(message,
+            if i + 1 > len(old_messages):
+                await channel.send(message,
                                # No link previews
                                suppress_embeds=True,
                                # Don't send any notifications
                                silent=True)
-            print(f"Sent message to {channel.name} on {guild.name}")
+                print(f"Sent message to {channel.name} on {guild.name}")
+
+            else:
+                await old_messages[i].edit(content=message,
+                                            # No link previews
+                                            suppress=True)
+                i += 1
+                print(f"Edited message to {channel.name} on {guild.name}")
 
     await client.close()
 
