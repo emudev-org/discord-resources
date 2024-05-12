@@ -126,6 +126,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [DSP1 binary loader for Ghidra](https://github.com/SachinVin/Dsp1LoaderGhidra) (For DSP .cdc firmware files, you can dump them from hardware or Panda3DS)
 - [Teak DSP Ghidra SLEIGH plugin](https://github.com/SachinVin/TeakLite-SLEIGH/tree/main)
 - [Teakra](https://github.com/wwylele/teakra): Teak DSP assembly, disassembly and emulation library
+- [3DS hacking guide](https://3ds.hacks.guide/)
 
 
 ## Nintendo Entertainment System
@@ -189,6 +190,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Gekko/Broadway/Espresso Ghidra plugin](https://github.com/aldelaro5/ghidra-gekko-broadway-lang)
 - [DSP HLE (Dolphin)](https://blog.lse.epita.fr/2012/12/03/emulating-the-gamecube-audio-processing-in-dolphin.html)
 - [Dolwin docs](https://github.com/ogamespec/dolwin-docs)
+- [Wii hacking guide](https://wii.hacks.guide/)
 
 ## Nintendo Wii U
 - See PowerPC resources
