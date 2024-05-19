@@ -398,7 +398,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [ARM7TDMI datasheet](https://www.dwedit.org/files/ARM7TDMI.pdf) (contains info about ARM and thumb instruction sets)
 - [ARM7TDMI Technical Reference Manual](https://documentation-service.arm.com/static/5f4786a179ff4c392c0ff819)
 - [ARM7TDMI-S Technical Reference Manual](https://documentation-service.arm.com/static/5e8e13a9fd977155116a3368) (doesn't contain instruction descriptions, but has info on timing)
-- [ARMv5TE Reference Manual](https://cdn.discordapp.com/attachments/667132407262216272/733255145495986246/ARMv5TE_reference_manual.pdf) (contains a few corrections to the original documents)
+- [ARMv5TE Reference Manual](https://web.archive.org/web/20231212000012/https://cdn.discordapp.com/attachments/667132407262216272/733255145495986246/ARMv5TE_reference_manual.pdf) (contains a few corrections to the original documents)
 - [ARM9E-S Technical Reference Manual](https://documentation-service.arm.com/static/5e8e2f18fd977155116a77fb) (contains info on timing that applies to all ARM9\*E-S processors)
 - [ARM946E-S Technical Reference Manual](https://documentation-service.arm.com/static/5f032835cafe527e86f5b8ad)
 - [ARMv6 Reference Manual](https://documentation-service.arm.com/static/5f1060400daa596235e7a60a)
