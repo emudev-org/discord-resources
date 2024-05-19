@@ -412,6 +412,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## x86
 - [8086 family user's manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
 - [Intel® 64 and IA-32 manuals](https://software.intel.com/content/www/us/en/develop/articles/intel-sdm.html)
+- [8088 CPU Tests](https://github.com/SingleStepTests/8088)
 - [8086/80186 test ROM](https://cdn.discordapp.com/attachments/466418871210082325/708247243072733255/test186.zip)
 - [Felix Cloutier's x86 and AMD64 instruction reference](https://www.felixcloutier.com/x86)
 - [Agner Fog's software optimization resources](https://www.agner.org/optimize)
@@ -420,7 +421,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Opcode and Instruction Reference](http://ref.x86asm.net/coder.html)
 - [x86-64 opcode table](http://ref.x86asm.net/coder64.html)
 - [OSDev wiki encoding page](https://wiki.osdev.org/X86-64_Instruction_Encoding)
-- <https://github.com/TomHarte/ProcessorTests/tree/main/8088>
 
 ## MIPS
 - [MIPS64 Instruction Set Reference Manual](https://s3-eu-west-1.amazonaws.com/downloads-mips/documents/MD00087-2B-MIPS64BIS-AFP-6.06.pdf)
