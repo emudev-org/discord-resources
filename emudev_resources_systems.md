@@ -103,6 +103,11 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## Nintendo DS
 - See relevant ARM resources below (the DS uses an ARM7TDMI and an ARM946E-S, implementing respectively ARMv4 and ARMv5TE)
 - [GBATEK](https://problemkaputt.de/gbatek.htm)
+- Datasheets:
+ - [RTC (NDS/Lite)](https://www.digchip.com/datasheets/download_datasheet.php?id=836843&part-number=S-35180A-T8T1)
+ - [RTC (DSi)](https://pdf1.alldatasheet.com/datasheet-pdf/view/222304/SII/S-35190A.html)
+ - [Touchscreen Controller (NDS)](https://www.ti.com/lit/ds/symlink/tsc2046.pdf)
+ - [Firmware Flash (NDS)](https://www.digikey.com/htmldatasheets/production/258121/0/0/1/m45pe20.pdf)
 - [Other docs](https://github.com/shonumi/Emu-Docs/tree/master/Nintendo%20DS)
 - Test ROMs:
  - <https://github.com/mic-/armwrestler>
