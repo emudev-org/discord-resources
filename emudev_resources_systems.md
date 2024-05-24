@@ -328,6 +328,7 @@ There are no "full" tutorials for other systems, so using references will be a b
  - Older similar documents:
  - <http://neopocott.emuunlim.com/docs/tech-11.txt>
  - <http://devrs.com/ngp/files/ngpctech.txt>
+- [Archive of More Resources](https://archive.org/details/neopop_source)
 - [Homebrew Development Kit](http://sebastianmihai.com/neogeo-pocket-ngcollector.html)
 - [More Homebrew](https://thor.pdroms.de/#ngpcdev)
 
