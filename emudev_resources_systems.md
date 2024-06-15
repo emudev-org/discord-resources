@@ -397,6 +397,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## PowerPC
 - [IBM's PowerPC Architecture Book](https://www.ibm.com/developerworks/systems/library/es-archguide-v2.html)
+- [PowerPC 750CL manual](https://github.com/wheremyfoodat/Panda3DS/blob/cdn/docs/ppc_750cl.pdf) (Mostly similar to the GC/Wii/Wii U CPUs)
 - [VMX128-type opcodes found on the Xbox 360 processor](http://biallas.net/doc/vmx128/vmx128.txt)
 
 ## ARM
