@@ -386,10 +386,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - <https://github.com/redcode/Z80/wiki/Tests>
 
 ## Misc
-- Generated instruction tests for the SM83 (Gameboy) / Z80 / SPC700 (SNES & misc)
-<https://github.com/raddad772/jsmoo/tree/main/misc/tests/GeneratedTests>
-- Instruction tests in json format for 65[c]02, 65816, 68000 and SPC700:
-<https://github.com/TomHarte/ProcessorTests>
+- [Single Step Tests](https://github.com/SingleStepTests): Instruction tests for various CPUs in JSON format, mostly generated from emulators
 
 ## Motorola 68k
 - [Instruction set reference](http://wpage.unina.it/rcanonic/didattica/ce1/docs/68000.pdf) (just a summary for each instruction, doesn't respond to https://)
