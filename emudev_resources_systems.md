@@ -305,6 +305,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## Mac
 - See Motorola 68K / PowerPC resources
 - [Apple's guide to the macintosh family hardware](https://archive.org/details/apple-guide-macintosh-family-hardware) (400 MB pdf)
+- [Inside Macintosh Volume III](https://vintageapple.org/inside_o/pdf/Inside_Macintosh_Volume_III_1985.pdf)
+- [Macintosh error codes](https://discussions.apple.com/thread/1883152?sortBy=best)
 ⠀
 ## MSX
 - See Z80 resources
@@ -393,7 +395,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## Motorola 68k
 - [Instruction set reference](http://wpage.unina.it/rcanonic/didattica/ce1/docs/68000.pdf) (just a summary for each instruction, doesn't respond to https://)
 - [Programmer's reference manual](https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf)
-- <http://goldencrystal.free.fr/M68kOpcodes.pdf>
+- [Instruction overview](http://goldencrystal.free.fr/M68kOpcodes.pdf)
+- [Prefetch information](http://pasti.fxatari.com/68kdocs/68kPrefetch.html)
 
 ## PowerPC
 - [IBM's PowerPC Architecture Book](https://www.ibm.com/developerworks/systems/library/es-archguide-v2.html)
