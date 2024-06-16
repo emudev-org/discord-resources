@@ -31,12 +31,12 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## Bytepusher
 - <https://esolangs.org/wiki/BytePusher>
-⠀
+
 ## Pac-Man
 - See Z80 resources
 - [Pac-Man emulation guide](https://www.lomont.org/software/games/pacman/PacmanEmulation.pdf)
 - [Disassembly](http://cubeman.org/arcade-source/pacman.asm)
-⠀
+
 ## Space Invaders
 - See 8080 resources
 - [SN76477N technical data](https://web.archive.org/web/20150425030455/http://www.emutalk.net/attachment.php?attachmentid=34143&d=1160668005)
@@ -307,7 +307,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Apple's guide to the macintosh family hardware](https://archive.org/details/apple-guide-macintosh-family-hardware) (400 MB pdf)
 - [Inside Macintosh Volume III](https://vintageapple.org/inside_o/pdf/Inside_Macintosh_Volume_III_1985.pdf)
 - [Macintosh error codes](https://discussions.apple.com/thread/1883152?sortBy=best)
-⠀
+
 ## MSX
 - See Z80 resources
 - [Test ROMs](https://github.com/PeterLemon/MSX)
@@ -317,7 +317,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - <https://worldofspectrum.org/faq/resources/documents.htm>
 - [Krom's demos](https://github.com/PeterLemon/ZXSpectrum)
 - <https://github.com/redcode/ZXSpectrum/wiki/Tests>
-⠀
+
 ## Amiga
 - [Info on the Amiga and "Another World"](https://fabiensanglard.net/another_world_polygons_amiga500/index.html)
 
@@ -339,10 +339,9 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Homebrew Development Kit](http://sebastianmihai.com/neogeo-pocket-ngcollector.html)
 - [More Homebrew](https://thor.pdroms.de/#ngpcdev)
 
-
 ## Pokémon Mini
 - <https://www.pokemon-mini.net/documentation>
-⠀
+
 ## Tamagotchi
 - [Tech specs and resources](https://tama.loociano.com)
 - [ROM dump and reverse engineering](https://hackaday.com/2013/05/24/tamagotchi-rom-dump-and-reverse-engineering)
