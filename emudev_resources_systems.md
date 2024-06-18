@@ -18,14 +18,17 @@ There are no "full" tutorials for other systems, so using references will be a b
 - References:
  - **[CHIP-8 Technical Reference](https://github.com/mattmikolay/chip-8/wiki/CHIP%E2%80%908-Technical-Reference)**
  - [CHIP-8 Instruction Set](https://github.com/mattmikolay/chip-8/wiki/CHIP%E2%80%908-Instruction-Set)
- - **[CHIP-8 Variant Opcode Table](https://chip8.gulrak.net/)**
+ - **[CHIP-8 & Variants Opcode Table](https://chip8.gulrak.net/)**
+ - **[Laurence Scotford's Chip-8/VIP Research](https://www.laurencescotford.net/tag/cosmac-vip/)**
 - Test ROMs:
  - **<https://github.com/Timendus/chip8-test-suite>**
- - <https://github.com/corax89/chip8-test-rom>
- - <https://github.com/metteo/chip8-test-rom>
- - <https://github.com/Skosulor/c8int/tree/master/test>
+ - *More are available for various needs, ask in the relevant channel.
 - Other resources:
+ - [Awesome Chip-8 - A collection of links](https://github.com/tobiasvl/awesome-chip-8)
+ - [Known Chip-8 variants and offshoots](https://chip-8.github.io/extensions/)
+ - [VIPER magazines and more](https://github.com/trapexit/chip-8_documentation/tree/master)
  - [ROM compatibility issues](https://github.com/tomdaley92/Kiwi8/issues/9)
+ - [Database of platform/rom settings](https://github.com/chip-8/chip-8-database/)
  - [Writing a CHIP-8 interpreter for the COSMAC ELF](https://cdn.discordapp.com/attachments/465586212804100106/482263592696152074/ELF_CHIP-8_Interpreter.pdf)
  - [COSMAC VIP manual](https://cdn.discordapp.com/attachments/465586212804100106/482263593753247744/VIP_Manual_Game_Manual_I.pdf)
 
