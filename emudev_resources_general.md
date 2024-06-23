@@ -4,11 +4,11 @@
 - **Architecture overview of various consoles: <https://copetti.org/projects/consoles>**
 - An introduction: <http://emulator101.com>
 - Docs for various systems: <https://github.com/shonumi/Emu-Docs> (combine with resources below)
-- Emulation blogs: <https://dolphin-emu.org/blog>, <https://byuu.net>, <http://emudev.de>, <http://www.noxa.org/blog/category/coding/emulation/>, <http://melonds.kuribo64.net/>, <https://pcsx2.net/developer-blog.html>, <https://shonumi.github.io/articles.html>, etc
+- Emulation blogs: <https://dolphin-emu.org/blog>, [[archived] byuu.net/](https://web.archive.org/web/20201221154920/https://byuu.net/), <http://emudev.de>, [[archived] noxa.org/emulation/](https://web.archive.org/web/20220928023912/http://www.noxa.org/blog/category/coding/emulation/), <http://melonds.kuribo64.net/>, <https://pcsx2.net/blog/tags/devblog>, <https://shonumi.github.io/articles.html>, etc
 - Subreddit: <https://www.reddit.com/r/EmuDev>
 - Building a computer from scratch: <https://www.nand2tetris.org>
 - Books (not necessary): 
-    - <http://www.noxa.org/blog/2011/08/21/emulation-books>
+    - [[archived] noxa.org/emulation-books/](https://web.archive.org/web/20221014042726/http://www.noxa.org/blog/2011/08/21/emulation-books/)
     - <http://www.codeslinger.co.uk/files/emu.pdf>
 - Write & run 8-bit code in the browser: <https://8bitworkshop.com>
 - Our website: <https://emudev.org/> (in construction)
@@ -30,7 +30,7 @@ High Level Emulation vs Low Level Emulation
 - <http://emulation.gametechwiki.com/index.php/High/Low_level_emulation>
 
 ### CPU emulation, cached interpeters
-- Code Translation Techniques: <http://www.noxa.org/blog/2011/08/21/building-an-xbox-360-emulator-part-6-code-translation-techniques/>
+- Code Translation Techniques: [[archived] noxa.org/building-an-xbox-360-emulator-part-6-code-translation-techniques/](http://www.noxa.org/blog/2011/08/21/building-an-xbox-360-emulator-part-6-code-translation-techniques/)
 - Writing a Cached Interpreter: <https://emudev.org/2021/01/31/cached-interpreter.html>
 - Faster interpreters: <http://www.emulators.com/docs/nx25_nostradamus.htm>
 - Computed goto: https://eli.thegreenplace.net/2012/07/12/computed-goto-for-efficient-dispatch-tables
@@ -119,16 +119,16 @@ It's a huge area of expertise & there is no be-all end-all resource, but a decen
 
 ### Static analysis
 The industry standard tools are:
-**[https://ghidra-sre.org](Ghidra)**: There are loaders/extensions for pretty much all consoles/processors, search for them.
-**[IDA Pro](https://www.hex-rays.com/ida-pro)**: Proprietary, paid, closed-source. Industry-standard for professionals - especially before Ghidra it was the only viable option. I don't personally recommend it, especially for architectures other than x86. Also if you want to get it legally, it costs multiple thousands of dollars vs. Ghidra being free & open source.
+- **[Ghidra](https://ghidra-sre.org)**: There are loaders/extensions for pretty much all consoles/processors, search for them.
+- **[IDA Pro](https://www.hex-rays.com/ida-pro)**: Proprietary, paid, closed-source. Industry-standard for professionals - especially before Ghidra it was the only viable option. I don't personally recommend it, especially for architectures other than x86. Also if you want to get it legally, it costs multiple thousands of dollars vs. Ghidra being free & open source.
 
 ### Dynamic analysis / Debugging
 The standard tool that's cross-platform and supports many architectures is **gdb**.
-    - Many emulators implement "gdbstub"s that allow them to use a gdb client to debug guest code just like you would debug something running on the host. Meaning, you would be able to place breakpoints, step, etc via any gdb interface (ie. gdbgui), on GameBoy code or whatever you're emulating.
-        - IDA Pro has debugging support that works with gdbstubs.
-        - <https://gef.readthedocs.io>
-        - <https://www.gdbgui.com>
-    - Other projects choose to make their own integrated debuggers with (ie. <https://github.com/ocornut/imgui>). This is perhaps more work, but more flexible (and many people don't like gdb).
+- Many emulators implement "gdbstub"s that allow them to use a gdb client to debug guest code just like you would debug something running on the host. Meaning, you would be able to place breakpoints, step, etc via any gdb interface (ie. gdbgui), on GameBoy code or whatever you're emulating.
+    - IDA Pro has debugging support that works with gdbstubs.
+    - <https://hugsy.github.io/gef/>
+    - <https://www.gdbgui.com>
+- Other projects choose to make their own integrated debuggers with (ie. <https://github.com/ocornut/imgui>). This is perhaps more work, but more flexible (and many people don't like gdb).
     - For x86, the industry standard tool is <https://github.com/x64dbg/x64dbg>.
     - Frida: <https://frida.re>
     - <http://reddit.com/r/ReverseEngineering> and <http://reddit.com/r/REGames>
