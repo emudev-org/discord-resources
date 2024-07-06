@@ -245,6 +245,9 @@ There are no "full" tutorials for other systems, so using references will be a b
 - <https://github.com/RPCS3/rpcs3/wiki/Developer-Information>
 - <https://www.psdevwiki.com/ps3>
 
+## PlayStation 4
+- [Reverse Engineering PlayStation 4](https://emulation.gametechwiki.com/index.php/PlayStation_4_emulators#Reverse_engineering_PlayStation_4)
+
 ## PlayStation Portable
 - <http://hitmen.c02.at/files/yapspd/psp_doc/>
 - <https://www.ppsspp.org/docs/psp-hardware/>
