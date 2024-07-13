@@ -69,6 +69,9 @@ For emulating 3D systems.
 ### Integrated Circuits
 - <https://www.icreversing.com/chips> (IC library)
 
+### Emulator Update Loop
+- [Emulator Polling vs. Scheduler Game Loop](https://www.gregorygaines.com/blog/emulator-polling-vs-scheduler-game-loop/)
+
 ## Useful libraries
 - Multimedia libraries (For Audio/Video output, keyboard/controller input, etc)
   - [SDL2](https://www.libsdl.org/): C library for graphics, audio, input, threading, and more. Has bindings for several languages
