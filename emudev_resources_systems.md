@@ -87,6 +87,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [TONC (GBA tutorial and demos)](https://www.coranac.com/projects/tonc)
 - <https://nba-emu.github.io/hw-docs>
 - [Cycle counting on the GBA](https://mgba.io/2015/06/27/cycle-counting-prefetch)
+- [Decoding the ARM7TDMI Instruction Set (Game Boy Advance)](https://www.gregorygaines.com/blog/decoding-the-arm7tdmi-instruction-set-game-boy-advance/)
 - Test ROMs:
  - [Various test ROMs, including an archive of TONC binaries](https://github.com/shonumi/Emu-Docs/tree/master/GameBoy%20Advance/test_roms)
  - <https://github.com/destoer/armwrestler-gba-fixed>
