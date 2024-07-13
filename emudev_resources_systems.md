@@ -241,6 +241,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [PS2 unofficial clang erratum](https://github.com/ZirconiumX/ps2-clang-patches/blob/master/erratum/unofficial-erratum.md)
 - [GS Mode Selector](https://web.archive.org/web/20191111013442/https://psx-scene.com/forums/f291/gs-mode-selector-development-feedback-61808)
 - [PS2 busses](https://web.archive.org/web/20191112223653/https://assemblergames.com/threads/the-playstation-2-busses-dev9.67961)
+- [Emulating PS2 Floating-Point Numbers: IEEE 754 Differences (Part 1)](https://www.gregorygaines.com/blog/emulating-ps2-floating-point-nums-ieee-754-diffs-part-1/)
 
 ## PlayStation 3
 - <https://github.com/RPCS3/rpcs3/wiki/Developer-Information>
