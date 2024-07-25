@@ -287,6 +287,12 @@ There are no "full" tutorials for other systems, so using references will be a b
  - <http://www.rockin-b.de/saturn.html>
  - <https://reddit.com/r/SegaSaturn/comments/223cdp/best_saturn_homebrews_available_atm>
 
+## Sega Dreamcast
+- [System Architecture Manual](https://segaretro.org/images/7/78/DreamcastDevBoxSystemArchitecture.pdf)
+- [SH4 Processor Manual](https://raw.githubusercontent.com/Kochise/dreamcast-docs/master/CPU/DOCS/h14th002d2.pdf)
+- [ARM7DI Processor Manual](https://developer.arm.com/documentation/ddi0027/latest/)
+
+
 ## Commodore 64
 - See 6502 resources in the [65xx family section](#65xx-family) (the C64 uses a 6510)
 - [MCS6500 family programming manual](http://archive.6502.org/books/mcs6500_family_programming_manual.pdf) (doesn't respond to https://)
