@@ -246,6 +246,9 @@ There are no "full" tutorials for other systems, so using references will be a b
 - <https://github.com/RPCS3/rpcs3/wiki/Developer-Information>
 - <https://www.psdevwiki.com/ps3>
 
+## PlayStation 4
+- [Reverse Engineering PlayStation 4](https://emulation.gametechwiki.com/index.php/PlayStation_4_emulators#Reverse_engineering_PlayStation_4)
+
 ## PlayStation Portable
 - <http://hitmen.c02.at/files/yapspd/psp_doc/>
 - <https://www.ppsspp.org/docs/psp-hardware/>
@@ -286,6 +289,12 @@ There are no "full" tutorials for other systems, so using references will be a b
 - Misc homebrew:
  - <http://www.rockin-b.de/saturn.html>
  - <https://reddit.com/r/SegaSaturn/comments/223cdp/best_saturn_homebrews_available_atm>
+
+## Sega Dreamcast
+- [System Architecture Manual](https://segaretro.org/images/7/78/DreamcastDevBoxSystemArchitecture.pdf)
+- [SH4 Processor Manual](https://raw.githubusercontent.com/Kochise/dreamcast-docs/master/CPU/DOCS/h14th002d2.pdf)
+- [ARM7DI Processor Manual](https://developer.arm.com/documentation/ddi0027/latest/)
+
 
 ## Commodore 64
 - See 6502 resources in the [65xx family section](#65xx-family) (the C64 uses a 6510)
