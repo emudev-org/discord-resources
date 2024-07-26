@@ -69,6 +69,9 @@ For emulating 3D systems.
 ### Integrated Circuits
 - <https://www.icreversing.com/chips> (IC library)
 
+### Save States
+- [Adding Save States to an Emulator](https://www.gregorygaines.com/blog/adding-save-states-to-an-emulator/)
+
 ### Emulator Update Loop
 - [Emulator Polling vs. Scheduler Game Loop](https://www.gregorygaines.com/blog/emulator-polling-vs-scheduler-game-loop/)
 
