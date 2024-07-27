@@ -353,6 +353,9 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Homebrew Development Kit](http://sebastianmihai.com/neogeo-pocket-ngcollector.html)
 - [More Homebrew](https://thor.pdroms.de/#ngpcdev)
 
+## V.Smile
+- <https://vtech.pulkomandy.tk/>
+
 ## Pokémon Mini
 - <https://www.pokemon-mini.net/documentation>
 
