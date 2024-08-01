@@ -421,7 +421,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [ARMv5TE Reference Manual](https://web.archive.org/web/20231212000012/https://cdn.discordapp.com/attachments/667132407262216272/733255145495986246/ARMv5TE_reference_manual.pdf) (contains a few corrections to the original documents)
 - [ARM9E-S Technical Reference Manual](https://documentation-service.arm.com/static/5e8e2f18fd977155116a77fb) (contains info on timing that applies to all ARM9\*E-S processors)
 - [ARM946E-S Technical Reference Manual](https://documentation-service.arm.com/static/5f032835cafe527e86f5b8ad)
-- [ARMv6 Reference Manual](https://documentation-service.arm.com/static/5f1060400daa596235e7a60a)
+- [ARMv6 Reference Manual](https://www.scs.stanford.edu/~zyedidia/docs/arm/armv6.pdf)
 - [ARMv7-A/R Reference Manual](https://documentation-service.arm.com/static/5f1074ce0daa596235e834b5)
 - [ARM11 MPCore Technical Reference Manual](https://documentation-service.arm.com/static/5e8e1e0388295d1e18d368b2)
 
