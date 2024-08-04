@@ -251,8 +251,18 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Reverse Engineering PlayStation 4](https://emulation.gametechwiki.com/index.php/PlayStation_4_emulators#Reverse_engineering_PlayStation_4)
 
 ## PlayStation Portable
+- Hardware
 - <http://hitmen.c02.at/files/yapspd/psp_doc/>
 - <https://www.ppsspp.org/docs/psp-hardware/>
+- <https://github.com/uofw/upspd/wiki>
+- [non-Sony SDK](https://pspdev.github.io/pspsdk/index.html)
+- [PRXTool](https://github.com/tyranid/prxtool)
+- [Swizzling on textures](https://forums.ps2dev.org/viewtopic.php?t=3021)
+- [VFPU reversed from past forums and implementation](https://github.com/jpcsp/jpcsp/blob/master/src/jpcsp/Allegrex/VfpuState.java)
+- [Opcode decoding and instruction names](https://github.com/jpcsp/jpcsp/blob/master/src/jpcsp/Allegrex/Instructions.java)
+- [Unofficial Firmware reversed by folks from PSP Homebrew Community](https://github.com/uofw/uofw)
+- Plugins for Reverse Engineering
+- [Resolve NIDS](https://github.com/pspdev/psp-ghidra-scripts/tree/master)
 - [Allegrex Ghidra plugin](https://github.com/kotcrab/ghidra-allegrex)
 
 ## Sega Game Gear
