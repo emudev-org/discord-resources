@@ -265,6 +265,10 @@ There are no "full" tutorials for other systems, so using references will be a b
   - [Resolve NIDS](https://github.com/pspdev/psp-ghidra-scripts/tree/master)
   - [Allegrex Ghidra plugin](https://github.com/kotcrab/ghidra-allegrex)
 
+## PlayStation Vita
+- VitaSDK docs: <https://docs.vitasdk.org/>
+- VitaSDK Github repos with homebrew samples, a developer toolchain, and more: <https://github.com/vitasdk>
+
 ## Sega Game Gear
 - [VDP test ROM](https://www.retrorgb.com/game-gear-vdp-test-software.html)
 - [Button test ROM](https://github.com/GameGearSamples/ButtonTest)
