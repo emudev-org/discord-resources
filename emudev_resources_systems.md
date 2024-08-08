@@ -268,6 +268,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## PlayStation Vita
 - VitaSDK docs: <https://docs.vitasdk.org/>
 - VitaSDK Github repos with homebrew samples, a developer toolchain, and more: <https://github.com/vitasdk>
+- Guide for decompiling PS Vita SELFs with Ghidra: <https://forum.devchroma.nl/index.php?topic=88.0>
 
 ## Sega Game Gear
 - [VDP test ROM](https://www.retrorgb.com/game-gear-vdp-test-software.html)
