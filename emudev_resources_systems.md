@@ -389,6 +389,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - Shonumi's blog: <https://shonumi.github.io>
 - Shell-storm multi-architecture assembler and disassembler: <http://shell-storm.org/online/Online-Assembler-and-Disassembler>
 - 8bitworkshop IDE: <https://8bitworkshop.com/redir.html>
+- A list of helpful patents for various systems, include Gamecube, Wii, N64 and more: <https://gist.github.com/sylvieee-iot/5636d376302569833b0787abc62b7758>
 - 240p test suite, supporting multiple systems: <https://sourceforge.net/projects/testsuite240p/files/Sega_Genesis-MegaDrive-SegaCD_MegaCD>
 
 # Processors and architectures
