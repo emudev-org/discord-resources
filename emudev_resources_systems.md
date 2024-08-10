@@ -137,7 +137,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Teak DSP Ghidra SLEIGH plugin](https://github.com/SachinVin/TeakLite-SLEIGH/tree/main)
 - [Teakra](https://github.com/wwylele/teakra): Teak DSP assembly, disassembly and emulation library
 - [3DS hacking guide](https://3ds.hacks.guide/)
-
+- [Documentation of some system archives](https://github.com/B3n30/citra_system_archives) (Mii data, OS font, etc) and Python scripts for generating non-copyrighted replacements.
 
 ## Nintendo Entertainment System
 - See 65xx family resources
