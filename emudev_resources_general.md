@@ -63,8 +63,12 @@ For emulating 3D systems.
 ### Hardware Rasterization
 - [LearnOpenGL](https://learnopengl.com/Getting-started/OpenGL): OpenGL tutorial for beginners
 - [Vulkan-tutorial](https://vulkan-tutorial.com/Introduction): Vulkan tutorial, prior GPU programming knowledge is advised.
+- [Renderdoc](https://renderdoc.org/): Open source graphics debugger with support for OpenGL, DX11, DX12 and Vulkan. Highly recommended if you're doing any sort of GPU programming.
+- [Nvidia Nsight](https://developer.nvidia.com/nsight-graphics/get-started): Closed source, state-of-the-art graphics debugger by Nvidia. Works on non-Nvidia GPUs too, though some features (like performance monitors) won't be available
 - [Ubershaders: A Ridiculous Solution to an Impossible Problem](https://dolphin-emu.org/blog/2017/07/30/ubershaders/)
 - [Texture caching](https://www.reddit.com/r/EmuDev/comments/ug5ere/about_texture_caches/)
+- [Metal API tutorial](https://medium.com/@samuliak) by Samuel Žúbor
+- [XCode](https://developer.apple.com/documentation/xcode/metal-debugger) offers an extraordinary Metal debugger, alongside a horrendous IDE and several other nauseating developer tools.
 
 ### Audio
 - <https://nicolasallemand.com/2019/12/12/let-there-be-sound>
@@ -125,6 +129,8 @@ For emulating 3D systems.
   - [sirit](https://github.com/ReinUsesLisp/sirit): SPIR-V emitter, useful for generating shaders at runtime in high-performance applications (eg shadergen on modern system emulators).
     - A fork with some more niche instructions added can be found [here](https://github.com/shadps4-emu/sirit)
   - [PCSX-Redux/Panda3DS OpenGL wrapper](https://github.com/wheremyfoodat/Panda3DS/blob/master/third_party/opengl/opengl.hpp): C++ abstraction layer over OpenGL
+  - [Metal-cpp](https://developer.apple.com/metal/cpp/): Metal API bindings for C++.
+    - If you don't want to use a library distributed as a zip and instead want a Git repository, a Github mirror is hosted [here](https://github.com/panda3ds-emu/metal-cpp)
 
 - [elfio](https://github.com/serge1/ELFIO): C++ library for reading and creating ELF files, useful for emulators that need to load ELFs or create ELFs for debugging purposes.
 - [Capstone](https://github.com/capstone-engine/capstone): C disassembler library with support for too many architectures to enumerate
