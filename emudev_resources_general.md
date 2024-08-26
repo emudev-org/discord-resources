@@ -55,7 +55,14 @@ Fast memory accesses using host MMU.
 
 ### Software Rasterization
 For emulating 3D systems.
+- [Basics of triangle rasterization](https://github.com/ssloy/tinyrenderer/wiki/Lesson-2:-Triangle-rasterization-and-back-face-culling) (Recommend the barycentric rasterization section in particular)
+- [Attribute interpolation across a triangle](https://codeplea.com/triangular-interpolation) (Recommend the barycentric coordinate approach discussed here)
+- [Introduction to compute rasterization](https://github.com/OmarShehata/webgpu-compute-rasterizer/blob/main/how-to-build-a-compute-rasterizer.md)
 - <https://fgiesen.wordpress.com/2013/02/17/optimizing-sw-occlusion-culling-index>
+
+### Hardware Rasterization
+- [LearnOpenGL](https://learnopengl.com/Getting-started/OpenGL): OpenGL tutorial for beginners
+- [Vulkan-tutorial](https://vulkan-tutorial.com/Introduction): Vulkan tutorial, prior GPU programming knowledge is advised.
 
 ### Audio
 - <https://nicolasallemand.com/2019/12/12/let-there-be-sound>
@@ -107,6 +114,15 @@ For emulating 3D systems.
 - Cryptography libraries for systems with crypto hardware:
   - [cryptopp](https://github.com/weidai11/cryptopp)
   - [OpenSSL](https://www.openssl.org/)
+ 
+- Graphics:
+  - [Vulkan-Hpp](https://github.com/KhronosGroup/Vulkan-Hpp): C++ bindings for the Vulkan API
+  - [Vulkan Memory Allocator (vma)](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator): Simple C++ Vulkan memory management library
+  - [glslang](https://github.com/KhronosGroup/glslang): GLSL and HLSL shader validator and compiler, useful for compiling shaders to SPIR-V.
+  - [shaderc](https://github.com/google/shaderc): Wrapper around glslang, provides easy-to-use(™) online and offline shader compilation capabilities.
+  - [sirit](https://github.com/ReinUsesLisp/sirit): SPIR-V emitter, useful for generating shaders at runtime in high-performance applications (eg shadergen on modern system emulators).
+    - A fork with some more niche instructions added can be found [here](https://github.com/shadps4-emu/sirit)
+  - [PCSX-Redux/Panda3DS OpenGL wrapper](https://github.com/wheremyfoodat/Panda3DS/blob/master/third_party/opengl/opengl.hpp): C++ abstraction layer over OpenGL
 
 - [elfio](https://github.com/serge1/ELFIO): C++ library for reading and creating ELF files, useful for emulators that need to load ELFs or create ELFs for debugging purposes.
 - [Capstone](https://github.com/capstone-engine/capstone): C disassembler library with support for too many architectures to enumerate
