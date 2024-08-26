@@ -63,6 +63,8 @@ For emulating 3D systems.
 ### Hardware Rasterization
 - [LearnOpenGL](https://learnopengl.com/Getting-started/OpenGL): OpenGL tutorial for beginners
 - [Vulkan-tutorial](https://vulkan-tutorial.com/Introduction): Vulkan tutorial, prior GPU programming knowledge is advised.
+- [Ubershaders: A Ridiculous Solution to an Impossible Problem](https://dolphin-emu.org/blog/2017/07/30/ubershaders/)
+- [Texture caching](https://www.reddit.com/r/EmuDev/comments/ug5ere/about_texture_caches/)
 
 ### Audio
 - <https://nicolasallemand.com/2019/12/12/let-there-be-sound>
