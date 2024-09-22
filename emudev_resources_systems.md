@@ -47,6 +47,12 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Space Invaders disassembly and info](https://computerarcheology.com/Arcade/SpaceInvaders)
 - [CPU tests](https://altairclone.com/downloads/cpu_tests) (need a CP/M implementation or to fake it to some extent, see CP/M section and [this Discord message](https://discord.com/channels/465585922579103744/466417993912680459/735434453228191794))
 
+## Casio PV-1000
+- See Z80 resources
+- [Casio PV-1000 Obscure Wiki](https://yughias.github.io/pages/pv-1000/documentation/docs.html)
+- [Casio PV-1000 Hardware notes](https://notes.world3.net/retro_computing/casio_pv-1000.html)
+- [Casio PV-1000 Emulation notes](https://yughias.github.io/pages/pv-1000/documentation/docs.html)
+
 ## CP/M
 - See 8080 resources
 - [General CP/M info](https://en.m.wikipedia.org/wiki/CP/M)
