@@ -49,7 +49,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## Casio PV-1000
 - See Z80 resources
-- [Casio PV-1000 Obscure Wiki](https://yughias.github.io/pages/pv-1000/documentation/docs.html)
+- [Casio PV-1000 Obscure Wiki](https://obscure.nesdev.org/wiki/Casio_PV-1000)
 - [Casio PV-1000 Hardware notes](https://notes.world3.net/retro_computing/casio_pv-1000.html)
 - [Casio PV-1000 Emulation notes](https://yughias.github.io/pages/pv-1000/documentation/docs.html)
 
