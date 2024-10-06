@@ -16,21 +16,21 @@ See the HIgh-level guide if you want detailed step-by-step instructions, otherwi
 There are no "full" tutorials for other systems, so using references will be a bit more challenging but more realistic and perhaps more helpful in the long run, assuming you'll want to move on to other systems after CHIP-8.
 - **[High-level guide to making a CHIP-8 emulator](https://tobiasvl.github.io/blog/write-a-chip-8-emulator)**
 - References:
- - **[CHIP-8 Technical Reference](https://github.com/mattmikolay/chip-8/wiki/CHIP%E2%80%908-Technical-Reference)**
- - [CHIP-8 Instruction Set](https://github.com/mattmikolay/chip-8/wiki/CHIP%E2%80%908-Instruction-Set)
- - **[CHIP-8 & Variants Opcode Table](https://chip8.gulrak.net/)**
- - **[Laurence Scotford's Chip-8/VIP Research](https://www.laurencescotford.net/tag/cosmac-vip/)**
+  - **[CHIP-8 Technical Reference](https://github.com/mattmikolay/chip-8/wiki/CHIP%E2%80%908-Technical-Reference)**
+  - [CHIP-8 Instruction Set](https://github.com/mattmikolay/chip-8/wiki/CHIP%E2%80%908-Instruction-Set)
+  - **[CHIP-8 & Variants Opcode Table](https://chip8.gulrak.net/)**
+  - **[Laurence Scotford's Chip-8/VIP Research](https://www.laurencescotford.net/tag/cosmac-vip/)**
 - Test ROMs:
- - **<https://github.com/Timendus/chip8-test-suite>**
- - *More are available for various needs, ask in the relevant channel.
+  - **<https://github.com/Timendus/chip8-test-suite>**
+  - *More are available for various needs, ask in the relevant channel.
 - Other resources:
- - [Awesome Chip-8 - A collection of links](https://github.com/tobiasvl/awesome-chip-8)
- - [Known Chip-8 variants and offshoots](https://chip-8.github.io/extensions/)
- - [VIPER magazines and more](https://github.com/trapexit/chip-8_documentation/tree/master)
- - [ROM compatibility issues](https://github.com/tomdaley92/Kiwi8/issues/9)
- - [Database of platform/rom settings](https://github.com/chip-8/chip-8-database/)
- - [Writing a CHIP-8 interpreter for the COSMAC ELF](https://cdn.discordapp.com/attachments/465586212804100106/482263592696152074/ELF_CHIP-8_Interpreter.pdf)
- - [COSMAC VIP manual](https://cdn.discordapp.com/attachments/465586212804100106/482263593753247744/VIP_Manual_Game_Manual_I.pdf)
+  - [Awesome Chip-8 - A collection of links](https://github.com/tobiasvl/awesome-chip-8)
+  - [Known Chip-8 variants and offshoots](https://chip-8.github.io/extensions/)
+  - [VIPER magazines and more](https://github.com/trapexit/chip-8_documentation/tree/master)
+  - [ROM compatibility issues](https://github.com/tomdaley92/Kiwi8/issues/9)
+  - [Database of platform/rom settings](https://github.com/chip-8/chip-8-database/)
+  - [Writing a CHIP-8 interpreter for the COSMAC ELF](https://cdn.discordapp.com/attachments/465586212804100106/482263592696152074/ELF_CHIP-8_Interpreter.pdf)
+  - [COSMAC VIP manual](https://cdn.discordapp.com/attachments/465586212804100106/482263593753247744/VIP_Manual_Game_Manual_I.pdf)
 
 ## Bytepusher
 - <https://esolangs.org/wiki/BytePusher>
@@ -73,12 +73,12 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [WIP tutorial on writing a GB emulator in Rust](https://rylev.github.io/DMG-01/public/book/)
 - [GameBoy Emulator Development Guide](https://hacktix.github.io/GBEDG)
 - Test ROMs:
- - [Blargg's test ROMs](https://github.com/retrio/gb-test-roms)
- - [Mooneye-gb test ROMs](https://github.com/Gekkio/mooneye-gb/tree/master/tests)
- - [dmg-acid (rendering test)](https://github.com/mattcurrie/dmg-acid2)
- - [cgb-acid (rendering test)](https://github.com/mattcurrie/cgb-acid2)
- - [PeterLemon's GB demos](https://github.com/PeterLemon/GB)
- - [Test ROM execution logs](https://github.com/wheremyfoodat/Gameboy-logs)
+  - [Blargg's test ROMs](https://github.com/retrio/gb-test-roms)
+  - [Mooneye-gb test ROMs](https://github.com/Gekkio/mooneye-gb/tree/master/tests)
+  - [dmg-acid (rendering test)](https://github.com/mattcurrie/dmg-acid2)
+  - [cgb-acid (rendering test)](https://github.com/mattcurrie/cgb-acid2)
+  - [PeterLemon's GB demos](https://github.com/PeterLemon/GB)
+  - [Test ROM execution logs](https://github.com/wheremyfoodat/Gameboy-logs)
 - [Bootrom disassembly](https://gist.github.com/6063288)
 - [The Ultimate Game Boy Talk](https://youtu.be/HyzD8pNlpwI)
 - [Other valuable resources](https://github.com/avivace/awesome-gbdev)
@@ -95,36 +95,36 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Cycle counting on the GBA](https://mgba.io/2015/06/27/cycle-counting-prefetch)
 - [Decoding the ARM7TDMI Instruction Set (Game Boy Advance)](https://www.gregorygaines.com/blog/decoding-the-arm7tdmi-instruction-set-game-boy-advance/)
 - Test ROMs:
- - [Various test ROMs, including an archive of TONC binaries](https://github.com/shonumi/Emu-Docs/tree/master/GameBoy%20Advance/test_roms)
- - <https://github.com/destoer/armwrestler-gba-fixed>
- - <https://github.com/DenSinH/FuzzARM>
- - <https://github.com/jsmolka/gba-suite>
- - <https://github.com/destoer/gba_tests>
- - <https://github.com/PeterLemon/GBA>
- - <https://github.com/ladystarbreeze/gba-tests/tree/master/dma-test>
- - <https://github.com/mgba-emu/suite>
- - <https://github.com/nba-emu/hw-test>
- - <https://gbadev.net/gbadoc/>
- - [Testrom Execution Logs](https://github.com/skylersaleh/GBA-Logs)
+  - [Various test ROMs, including an archive of TONC binaries](https://github.com/shonumi/Emu-Docs/tree/master/GameBoy%20Advance/test_roms)
+  - <https://github.com/destoer/armwrestler-gba-fixed>
+  - <https://github.com/DenSinH/FuzzARM>
+  - <https://github.com/jsmolka/gba-suite>
+  - <https://github.com/destoer/gba_tests>
+  - <https://github.com/PeterLemon/GBA>
+  - <https://github.com/ladystarbreeze/gba-tests/tree/master/dma-test>
+  - <https://github.com/mgba-emu/suite>
+  - <https://github.com/nba-emu/hw-test>
+  - <https://gbadev.net/gbadoc/>
+  - [Testrom Execution Logs](https://github.com/skylersaleh/GBA-Logs)
 - [mGBA blog](https://mgba.io) (particularly the "development" and "emulation" tags)
 - Homebrew development:
- - <https://patater.com/gbaguy/gbaasm.htm>
+  - <https://patater.com/gbaguy/gbaasm.htm>
 
 ## Nintendo DS
 - See relevant ARM resources below (the DS uses an ARM7TDMI and an ARM946E-S, implementing respectively ARMv4 and ARMv5TE)
 - [GBATEK](https://problemkaputt.de/gbatek.htm)
 - Datasheets:
- - [RTC (NDS/Lite)](https://www.digchip.com/datasheets/download_datasheet.php?id=836843&part-number=S-35180A-T8T1)
- - [RTC (DSi)](https://pdf1.alldatasheet.com/datasheet-pdf/view/222304/SII/S-35190A.html)
- - [Touchscreen Controller (NDS)](https://www.ti.com/lit/ds/symlink/tsc2046.pdf)
- - [Firmware Flash (NDS)](https://www.digikey.com/htmldatasheets/production/258121/0/0/1/m45pe20.pdf)
+  - [RTC (NDS/Lite)](https://www.digchip.com/datasheets/download_datasheet.php?id=836843&part-number=S-35180A-T8T1)
+  - [RTC (DSi)](https://pdf1.alldatasheet.com/datasheet-pdf/view/222304/SII/S-35190A.html)
+  - [Touchscreen Controller (NDS)](https://www.ti.com/lit/ds/symlink/tsc2046.pdf)
+  - [Firmware Flash (NDS)](https://www.digikey.com/htmldatasheets/production/258121/0/0/1/m45pe20.pdf)
 - [Other docs](https://github.com/shonumi/Emu-Docs/tree/master/Nintendo%20DS)
 - Test ROMs:
- - <https://github.com/mic-/armwrestler>
-  - [Built ROM](https://cdn.discordapp.com/attachments/667132407262216272/732206968252661800/armwrestler.nds)
- - <https://github.com/Arisotura/arm7wrestler>
-  - [Built ROM](https://cdn.discordapp.com/attachments/667132407262216272/732206999890165780/arm7wrestler.nds)
- - <https://tcrf.net/Aging_Card_NTR>
+  - <https://github.com/mic-/armwrestler>
+    - [Built ROM](https://cdn.discordapp.com/attachments/667132407262216272/732206968252661800/armwrestler.nds)
+  - <https://github.com/Arisotura/arm7wrestler>
+    - [Built ROM](https://cdn.discordapp.com/attachments/667132407262216272/732206999890165780/arm7wrestler.nds)
+  - <https://tcrf.net/Aging_Card_NTR>
 - [Sample homebrew programs](https://github.com/devkitPro/nds-examples)
 - [Arisotura's blog](https://melonds.kuribo64.net)
 - [Ongoing rasterizer timing research](https://melonds.kuribo64.net/board/thread.php?pid=6560#6560)
@@ -163,17 +163,17 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Anomie's SNES docs](https://www.romhacking.net/?page=documents&platform=9&author=548)
 - [WIP Super Mario World disassembly](https://raw.githubusercontent.com/gnaghi/SMWDisC/master/SMWDisC.txt)
 - [SNES development wiki](https://wiki.superfamicom.org):
- - [65c816 CPU reference](https://wiki.superfamicom.org/65816-reference)
- - [SPC-700 APU reference](https://wiki.superfamicom.org/spc700-reference)
- - [Capcom Cx4 coprocessor docs](https://wiki.superfamicom.org/capcom-cx4-hitachi-hg51b169)
+  - [65c816 CPU reference](https://wiki.superfamicom.org/65816-reference)
+  - [SPC-700 APU reference](https://wiki.superfamicom.org/spc700-reference)
+  - [Capcom Cx4 coprocessor docs](https://wiki.superfamicom.org/capcom-cx4-hitachi-hg51b169)
 - Test ROMs:
- - <https://gitlab.com/higan/snes-test-roms>
- - <https://github.com/PeterLemon/SNES>
- - [Blargg's SPC SNES test ROMs](https://forums.nesdev.com/viewtopic.php?f=12&t=18005)
- - [More of Blargg's SNES test ROMs](https://web.archive.org/web/20150601173734/http://blargg.8bitalley.com/parodius/snes-tests)
+  - <https://gitlab.com/higan/snes-test-roms>
+  - <https://github.com/PeterLemon/SNES>
+  - [Blargg's SPC SNES test ROMs](https://forums.nesdev.com/viewtopic.php?f=12&t=18005)
+  - [More of Blargg's SNES test ROMs](https://web.archive.org/web/20150601173734/http://blargg.8bitalley.com/parodius/snes-tests)
 - [SNES sprite engine design guidelines](https://megacatstudios.com/blogs/retro-development/snes-sprite-engine-design-guidelines)
 - [SNES programming book](https://en.wikibooks.org/wiki/Super_NES_Programming)
- - [Super FX tutorial](https://en.wikibooks.org/wiki/Super_NES_Programming/Super_FX_tutorial)
+  - [Super FX tutorial](https://en.wikibooks.org/wiki/Super_NES_Programming/Super_FX_tutorial)
 
 ## Nintendo Virtual Boy
 - [Some homebrew ROMs](https://www.virtual-boy.com/homebrew)
@@ -215,12 +215,12 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## PlayStation 1
 - See MIPS resources
 - [Guide to writing a PSX emulator](https://github.com/simias/psx-guide)
- - [Rendered](https://cdn.discordapp.com/attachments/492036343376117778/492037613721616406/guide.PDF)
+  - [Rendered](https://cdn.discordapp.com/attachments/492036343376117778/492037613721616406/guide.PDF)
 - [psx-spx (original)](https://problemkaputt.de/psx-spx.htm)
 - [psx-spx (modernized and actively maintained)](https://psx-spx.consoledev.net/)
 - [PSX reverse engineering project](https://github.com/ogamespec/psxdev/tree/master/reverse)
 - [BIOS info](http://wiki.psxdev.ru/index.php/BIOS)
- - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=http://wiki.psxdev.ru/index.php/BIOS)
+  - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=http://wiki.psxdev.ru/index.php/BIOS)
 - [The PSX GPU texture pipeline and how to emulate it](https://www.reddit.com/r/EmuDev/comments/fmhtcn)
 - [PSX EXE header](http://www.emulatronia.com/doctec/consolas/psx/exeheader.txt) (also see "CDROM File Formats" section in psx-spx)
 - [Difficult-to-emulate games](https://github.com/stenzek/duckstation/wiki/Difficult-to-Emulate-Games)
@@ -230,14 +230,14 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [PSX GTE docs/reverse engineering](https://github.com/ogamespec/pops-gte)
 - [PSX MDEC & CD-ROM info](https://github.com/m35/jpsxdec/blob/readme/jpsxdec/PlayStation1_STR_format.txt)
 - [PlayStation emulator development info](https://drhell.web.fc2.com/ps1/index.html)
- - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=http%3A%2F%2Fdrhell.web.fc2.com%2Fps1%2Findex.html)
+  - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=http%3A%2F%2Fdrhell.web.fc2.com%2Fps1%2Findex.html)
 - Test ROMs:
- - [Amidog's tests](https://emulation.gametechwiki.com/index.php/PS1_Tests)
- - <https://github.com/PeterLemon/PSX>
- - <https://github.com/JaCzekanski/ps1-tests>
- - <https://github.com/simias/psx-hardware-tests/tree/master/tests>
- - <https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips/tests>
- - [PSX demos](https://www.pouet.net/prodlist.php?order=thumbup&platform%5B0%5D=Playstation&page=1)
+  - [Amidog's tests](https://emulation.gametechwiki.com/index.php/PS1_Tests)
+  - <https://github.com/PeterLemon/PSX>
+  - <https://github.com/JaCzekanski/ps1-tests>
+  - <https://github.com/simias/psx-hardware-tests/tree/master/tests>
+  - <https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips/tests>
+  - [PSX demos](https://www.pouet.net/prodlist.php?order=thumbup&platform%5B0%5D=Playstation&page=1)
 - Open-source BIOS: <https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips/openbios>
 
 ## PlayStation 2
@@ -284,18 +284,18 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## Sega Master System
 - See Z80 resources
 - [SMS info](https://www.smspower.org/Development)
- - [BIOS documentation](https://www.smspower.org/Development/BIOSes)
- - [Memory map](https://www.smspower.org/Development/MemoryMap)
- - [Z80 info](https://www.smspower.org/Development/Z80-Index)
- - [Video Hardware](https://www.smspower.org/Development/VDPRegisters)
- - [Sound Hardware](https://www.smspower.org/Development/SN76489)
+  - [BIOS documentation](https://www.smspower.org/Development/BIOSes)
+  - [Memory map](https://www.smspower.org/Development/MemoryMap)
+  - [Z80 info](https://www.smspower.org/Development/Z80-Index)
+  - [Video Hardware](https://www.smspower.org/Development/VDPRegisters)
+  - [Sound Hardware](https://www.smspower.org/Development/SN76489)
 - <http://www.codeslinger.co.uk/pages/projects/mastersystem.html>
 - Test ROMs:
- - [Homebrew test cases](https://www.smspower.org/Homebrew/NotOnlyWords-SMS)
- - [ZEXALL test ROM](https://www.smspower.org/Homebrew/ZEXALL-SMS) (doesn't require any hardware, it can log to an IO port)
- - [PeterLemon's SMS demos](https://github.com/PeterLemon/SMS)
- - [VDP test ROM](https://www.smspower.org/Homebrew/SMSVDPTest-SMS)
- - [WIP test suite](https://github.com/sverx/SMSTestSuite)
+  - [Homebrew test cases](https://www.smspower.org/Homebrew/NotOnlyWords-SMS)
+  - [ZEXALL test ROM](https://www.smspower.org/Homebrew/ZEXALL-SMS) (doesn't require any hardware, it can log to an IO port)
+  - [PeterLemon's SMS demos](https://github.com/PeterLemon/SMS)
+  - [VDP test ROM](https://www.smspower.org/Homebrew/SMSVDPTest-SMS)
+  - [WIP test suite](https://github.com/sverx/SMSTestSuite)
 
 ## Sega Genesis / Mega Drive
 - See Z80 and m68k resources
@@ -309,8 +309,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [SH-2 programming manual](https://antime.kapsi.fi/sega/files/h12p0.pdf)
 - [GAM1 test ROM, harnessing most hardware](https://segaxtreme.net/threads/sega-saturn-sample-by-sega.24264)
 - Misc homebrew:
- - <http://www.rockin-b.de/saturn.html>
- - <https://reddit.com/r/SegaSaturn/comments/223cdp/best_saturn_homebrews_available_atm>
+  - <http://www.rockin-b.de/saturn.html>
+  - <https://reddit.com/r/SegaSaturn/comments/223cdp/best_saturn_homebrews_available_atm>
 
 ## Sega Dreamcast
 - [System Architecture Manual](https://segaretro.org/images/7/78/DreamcastDevBoxSystemArchitecture.pdf)
@@ -326,14 +326,14 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [VICE test ROMs](https://vice-emu.pokefinder.org/index.php/Testbench)
 - [SID manual](http://archive.6502.org/datasheets/mos_6581_sid.pdf) (doesn't respond to https://)
 - [C64 assembly language programming](https://www.retro-programming.de)
- - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fwww.retro-programming.de)
+  - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fwww.retro-programming.de)
 - [Scanline missing cycles](http://www.antimon.org/dl/c64/code/missing.txt)
 - [Opening the borders](http://www.antimon.org/dl/c64/code/opening.txt)
 - [Info on the VIC-II](http://www.zimmers.net/cbmpics/cbm/c64/vic-ii.txt)
 - [SID info](http://www.oxyron.de/html/registers_sid.html) (doesn't respond to https://)
 - Programming the C64's SID:
- - [Part 1](https://www.atarimagazines.com/compute/issue49/424_1_Programming_64_Sound.php)
- - [Part 2](https://www.atarimagazines.com/compute/issue50/277_1_Programming_64_Sound.php)
+  - [Part 1](https://www.atarimagazines.com/compute/issue49/424_1_Programming_64_Sound.php)
+  - [Part 2](https://www.atarimagazines.com/compute/issue50/277_1_Programming_64_Sound.php)
 - [6502 decimal mode](https://www.atarimagazines.com/compute/issue50/268_1_MACHINE_LANGUAGE.php)
 - [The Commodore 64 Music Book](https://archive.org/details/The_Commodore_64_Music_Book)
 - [C64 user's guide (start of sound chapter)](https://archive.org/details/Commodore_64_Users_Guide_1984_Commodore/page/n87)
@@ -368,9 +368,9 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Toshiba TLCS-900/H CPU Manual](https://toshiba.semicon-storage.com/info/catalog_en_20010831_ALT00146.pdf?did=7768)
 - [TMP95CS64F Manual](https://datasheetspdf.com/pdf-file/1217217/Toshiba/TMP95CS64F/1) (thought to be the microcontroller the NGPC is based around)
 - [NGPC Memory Map/Technical Reference](https://github.com/OpenEmu/NeoPop-Core/blob/master/Core/docs/Memory%20Map.txt)
- - Older similar documents:
- - <http://neopocott.emuunlim.com/docs/tech-11.txt>
- - <http://devrs.com/ngp/files/ngpctech.txt>
+  - Older similar documents:
+  - <http://neopocott.emuunlim.com/docs/tech-11.txt>
+  - <http://devrs.com/ngp/files/ngpctech.txt>
 - [Archive of More Resources](https://archive.org/details/neopop_source)
 - [Homebrew Development Kit](http://sebastianmihai.com/neogeo-pocket-ngcollector.html)
 - [More Homebrew](https://thor.pdroms.de/#ngpcdev)
@@ -384,8 +384,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## Tamagotchi
 - [Tech specs and resources](https://tama.loociano.com)
 - [ROM dump and reverse engineering](https://hackaday.com/2013/05/24/tamagotchi-rom-dump-and-reverse-engineering)
- - [Archive of linked article](https://web.archive.org/web/20180831183942/https://www.kwartzlab.ca/2013/05/first-glimpse-soul-tamagotchi)
- - [ROM dump GitHub repository](https://github.com/natashenka/Tamagotchi-Hack/tree/master/codedump)
+  - [Archive of linked article](https://web.archive.org/web/20180831183942/https://www.kwartzlab.ca/2013/05/first-glimpse-soul-tamagotchi)
+  - [ROM dump GitHub repository](https://github.com/natashenka/Tamagotchi-Hack/tree/master/codedump)
 
 ## Multiple systems
 - <https://www.zophar.net/documents.html>

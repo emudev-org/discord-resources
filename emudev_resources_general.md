@@ -7,9 +7,9 @@
 - Emulation blogs: <https://dolphin-emu.org/blog>, [[archived] byuu.net/](https://web.archive.org/web/20201221154920/https://byuu.net/), <http://emudev.de>, [[archived] noxa.org/emulation/](https://web.archive.org/web/20220928023912/http://www.noxa.org/blog/category/coding/emulation/), <http://melonds.kuribo64.net/>, <https://pcsx2.net/blog/tags/devblog>, <https://shonumi.github.io/articles.html>, etc
 - Subreddit: <https://www.reddit.com/r/EmuDev>
 - Building a computer from scratch: <https://www.nand2tetris.org>
-- Books (not necessary): 
-    - [[archived] noxa.org/emulation-books/](https://web.archive.org/web/20221014042726/http://www.noxa.org/blog/2011/08/21/emulation-books/)
-    - <http://www.codeslinger.co.uk/files/emu.pdf>
+- Books (not necessary):
+  - [[archived] noxa.org/emulation-books/](https://web.archive.org/web/20221014042726/http://www.noxa.org/blog/2011/08/21/emulation-books/)
+  - <http://www.codeslinger.co.uk/files/emu.pdf>
 - Write & run 8-bit code in the browser: <https://8bitworkshop.com>
 - Our website: <https://emudev.org/> (in construction)
 
@@ -49,18 +49,18 @@ Intermediate representation, which makes it easier to optimize and port to multi
 - [Intermediate representation](https://en.wikipedia.org/wiki/Intermediate_representation)
 - [Three address code](https://en.wikipedia.org/wiki/Three-address_code), common IR representation
 - [Static single assignment](https://en.wikipedia.org/wiki/Static_single-assignment_form), property of IR that makes optimizations easier at the cost of difficulty in entering/exiting this form
-    - [Dominance](https://en.wikipedia.org/wiki/Dominator_(graph_theory)), important concept in SSA algorithms
-    - [A Simple, Fast Dominance Algorithm](http://www.hipersoft.rice.edu/grads/publications/dom14.pdf)
-    - Entering SSA:
-        - [Efficiently Computing Static Single Assignment Form and the Control Dependence Graph](https://www.cs.utexas.edu/%7Epingali/CS380C/2010/papers/ssaCytron.pdf), or
-        - [Simple and Efficient Construction of Static Single Assignment Form](https://link.springer.com/chapter/10.1007/978-3-642-37051-9_6)
-    - Exiting SSA:
-        - [Translating Out of SSA Form](https://graal.ens-lyon.fr/~pkchouha/presentation/ssa/ssaf.pdf)
-    - [Parallel moves for breaking up phis](https://compiler.club/parallel-moves/)
-    - Also check out: [SSA book](https://pfalcon.github.io/ssabook/latest/book-v1.pdf)
+  - [Dominance](https://en.wikipedia.org/wiki/Dominator_(graph_theory)), important concept in SSA algorithms
+  - [A Simple, Fast Dominance Algorithm](http://www.hipersoft.rice.edu/grads/publications/dom14.pdf)
+  - Entering SSA:
+    - [Efficiently Computing Static Single Assignment Form and the Control Dependence Graph](https://www.cs.utexas.edu/%7Epingali/CS380C/2010/papers/ssaCytron.pdf), or
+    - [Simple and Efficient Construction of Static Single Assignment Form](https://link.springer.com/chapter/10.1007/978-3-642-37051-9_6)
+  - Exiting SSA:
+    - [Translating Out of SSA Form](https://graal.ens-lyon.fr/~pkchouha/presentation/ssa/ssaf.pdf)
+  - [Parallel moves for breaking up phis](https://compiler.club/parallel-moves/)
+  - Also check out: [SSA book](https://pfalcon.github.io/ssabook/latest/book-v1.pdf)
 - [Register allocation](https://en.wikipedia.org/wiki/Register_allocation)
-    - [Register Allocation And Spilling Via Graph Coloring](https://web.eecs.umich.edu/~mahlke/courses/583f12/reading/chaitin82.pdf), the classic way of register allocation in production compilers and some JITs
-    - [Linear Scan Register Allocation](https://web.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf), a faster and simpler register allocation algorithm that produces good results, favorable in JITs for it's linear time
+  - [Register Allocation And Spilling Via Graph Coloring](https://web.eecs.umich.edu/~mahlke/courses/583f12/reading/chaitin82.pdf), the classic way of register allocation in production compilers and some JITs
+  - [Linear Scan Register Allocation](https://web.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf), a faster and simpler register allocation algorithm that produces good results, favorable in JITs for it's linear time
 
 Optimizations
 - [Common subexpression elimination](https://en.wikipedia.org/wiki/Common_subexpression_elimination)
@@ -136,7 +136,7 @@ For emulating 3D systems.
   - [Dynasm](https://github.com/Esvandiary/DynASM): x86-32/x86-64/arm32/arm64/PowerPC/MIPS emitter written in C
   - [Luma](https://github.com/wheremyfoodat/Luma): Single header C++ 32-bit PowerPC emitter, with support for the Paired Singles ISA in the Gamecube/Wii/Wii U CPUs
   - [Vixl](https://github.com/Linaro/vixl): C++ arm32 and arm64 emitter for x86-32, x86-64 and arm64.
-  - [asmjit](https://asmjit.com/): C++ emitter 
+  - [asmjit](https://asmjit.com/): C++ emitter
   - [Dynasm-rs](https://github.com/CensoredUsername/dynasm-rs): A dynasm-like library for Rust, using proc-macros
   - [biscuit](https://github.com/lioncash/biscuit): RISC-V emitter
 
@@ -148,7 +148,7 @@ For emulating 3D systems.
 - Cryptography libraries for systems with crypto hardware:
   - [cryptopp](https://github.com/weidai11/cryptopp)
   - [OpenSSL](https://www.openssl.org/)
- 
+
 - Graphics:
   - [Vulkan-Hpp](https://github.com/KhronosGroup/Vulkan-Hpp): C++ bindings for the Vulkan API
   - [Vulkan Memory Allocator (vma)](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator): Simple C++ Vulkan memory management library
@@ -183,13 +183,13 @@ The industry standard tools are:
 ### Dynamic analysis / Debugging
 The standard tool that's cross-platform and supports many architectures is **gdb**.
 - Many emulators implement "gdbstub"s that allow them to use a gdb client to debug guest code just like you would debug something running on the host. Meaning, you would be able to place breakpoints, step, etc via any gdb interface (ie. gdbgui), on GameBoy code or whatever you're emulating.
-    - IDA Pro has debugging support that works with gdbstubs.
-    - <https://hugsy.github.io/gef/>
-    - <https://www.gdbgui.com>
+  - IDA Pro has debugging support that works with gdbstubs.
+  - <https://hugsy.github.io/gef/>
+  - <https://www.gdbgui.com>
 - Other projects choose to make their own integrated debuggers with (ie. <https://github.com/ocornut/imgui>). This is perhaps more work, but more flexible (and many people don't like gdb).
-    - For x86, the industry standard tool is <https://github.com/x64dbg/x64dbg>.
-    - Frida: <https://frida.re>
-    - <http://reddit.com/r/ReverseEngineering> and <http://reddit.com/r/REGames>
+  - For x86, the industry standard tool is <https://github.com/x64dbg/x64dbg>.
+  - Frida: <https://frida.re>
+  - <http://reddit.com/r/ReverseEngineering> and <http://reddit.com/r/REGames>
 
 ---
 
