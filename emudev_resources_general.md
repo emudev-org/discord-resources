@@ -44,6 +44,31 @@ Just-In-Time and Ahead-of-Time compilers.
 - <https://bheisler.github.io/post/experiments-in-nes-jit-compilation>
 - <https://andrewkelley.me/post/jamulator.html> (**AOT**. most other links here are about **JIT**ing)
 - <https://www.davidsharp.com/tarmac/> (see pdf at the end)
+Intermediate representation, which makes it easier to optimize and port to multiple host targets.
+- [Intermediate representation](https://en.wikipedia.org/wiki/Intermediate_representation)
+- [Three address code](https://en.wikipedia.org/wiki/Three-address_code), common IR representation
+- [Static single assignment](https://en.wikipedia.org/wiki/Static_single-assignment_form), property of IR that makes optimizations easier at the cost of difficulty in entering/exiting this form
+    - [Dominance](https://en.wikipedia.org/wiki/Dominator_(graph_theory)), important concept in SSA algorithms
+    - [A Simple, Fast Dominance Algorithm](http://www.hipersoft.rice.edu/grads/publications/dom14.pdf)
+    - Entering SSA:
+        - [Efficiently Computing Static Single Assignment Form and the Control Dependence Graph](https://www.cs.utexas.edu/%7Epingali/CS380C/2010/papers/ssaCytron.pdf), or
+        - [Simple and Efficient Construction of Static Single Assignment Form](https://link.springer.com/chapter/10.1007/978-3-642-37051-9_6)
+    - Exiting SSA:
+        - [Translating Out of SSA Form](https://graal.ens-lyon.fr/~pkchouha/presentation/ssa/ssaf.pdf)
+    - [Parallel moves for breaking up phis](https://compiler.club/parallel-moves/)
+    - Also check out: [SSA book](https://pfalcon.github.io/ssabook/latest/book-v1.pdf)
+- [Register allocation](https://en.wikipedia.org/wiki/Register_allocation)
+    - [Register Allocation And Spilling Via Graph Coloring](https://web.eecs.umich.edu/~mahlke/courses/583f12/reading/chaitin82.pdf), the classic way of register allocation in production compilers and some JITs
+    - [Linear Scan Register Allocation](https://web.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf), a faster and simpler register allocation algorithm that produces good results, favorable in JITs for it's linear time
+Optimizations
+- [Common subexpression elimination](https://en.wikipedia.org/wiki/Common_subexpression_elimination)
+- [Partial-redundancy elimination](https://en.wikipedia.org/wiki/Partial-redundancy_elimination)
+- [Global value numbering](https://en.wikipedia.org/wiki/Value_numbering)
+- [Copy propagation](https://en.wikipedia.org/wiki/Copy_propagation)
+- [Constant propagation/folding](https://en.wikipedia.org/wiki/Constant_folding)
+- [Dead store](https://en.wikipedia.org/wiki/Dead_store)
+- [Code motion](https://en.wikipedia.org/wiki/Code_motion)
+- [Sparse conditional constant propagation](https://www.cs.wustl.edu/~cytron/531Pages/f11/Resources/Papers/cprop.pdf)
 
 ### fastmem
 Fast memory accesses using host MMU.
@@ -111,6 +136,7 @@ For emulating 3D systems.
   - [Vixl](https://github.com/Linaro/vixl): C++ arm32 and arm64 emitter for x86-32, x86-64 and arm64.
   - [asmjit](https://asmjit.com/): C++ emitter 
   - [Dynasm-rs](https://github.com/CensoredUsername/dynasm-rs): A dynasm-like library for Rust, using proc-macros
+  - [biscuit](https://github.com/lioncash/biscuit): RISC-V emitter
 
 - Libraries for handling configuration files, game databases, etc:
   - [nlohmann/json](https://github.com/nlohmann/json): JSON for modern C++
