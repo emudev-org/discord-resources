@@ -454,6 +454,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## ARM64
 - [ARMv8 and ARMv9 A-Profile Architecture manual](https://developer.arm.com/documentation/ddi0487/latest/)
 - [ARM64 cheatsheet](https://github.com/wheremyfoodat/Panda3DS/blob/cdn/docs/arm64_cheat_sheet.pdf)
+- [NEON intrinsic reference](https://arm-software.github.io/acle/neon_intrinsics/advsimd.html)
 
 ## x86
 - [8086 family user's manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
