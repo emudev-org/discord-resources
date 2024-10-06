@@ -44,6 +44,7 @@ Just-In-Time and Ahead-of-Time compilers.
 - <https://bheisler.github.io/post/experiments-in-nes-jit-compilation>
 - <https://andrewkelley.me/post/jamulator.html> (**AOT**. most other links here are about **JIT**ing)
 - <https://www.davidsharp.com/tarmac/> (see pdf at the end)
+
 Intermediate representation, which makes it easier to optimize and port to multiple host targets.
 - [Intermediate representation](https://en.wikipedia.org/wiki/Intermediate_representation)
 - [Three address code](https://en.wikipedia.org/wiki/Three-address_code), common IR representation
@@ -60,6 +61,7 @@ Intermediate representation, which makes it easier to optimize and port to multi
 - [Register allocation](https://en.wikipedia.org/wiki/Register_allocation)
     - [Register Allocation And Spilling Via Graph Coloring](https://web.eecs.umich.edu/~mahlke/courses/583f12/reading/chaitin82.pdf), the classic way of register allocation in production compilers and some JITs
     - [Linear Scan Register Allocation](https://web.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf), a faster and simpler register allocation algorithm that produces good results, favorable in JITs for it's linear time
+
 Optimizations
 - [Common subexpression elimination](https://en.wikipedia.org/wiki/Common_subexpression_elimination)
 - [Partial-redundancy elimination](https://en.wikipedia.org/wiki/Partial-redundancy_elimination)
