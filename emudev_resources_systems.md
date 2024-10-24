@@ -389,7 +389,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## Multiple systems
 - <https://www.zophar.net/documents.html>
-- <http://emulator101.com>
+- <http://www.emulator101.com>
 - <http://hitmen.c02.at/index.html>
 - <http://www.codeslinger.co.uk> (doesn't respond to https://, disable extensions such as HTTPS Everywhere if it doesn't load)
 - <https://emudev.de>
@@ -407,7 +407,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [6502 decimal mode](https://www.atarimagazines.com/compute/issue50/268_1_MACHINE_LANGUAGE.php)
 
 ## 8080
-- [8080 tutorial (among other things)](http://emulator101.com)
+- [8080 tutorial (among other things)](http://www.emulator101.com)
 - [Assembly programming manual](https://altairclone.com/downloads/manuals/8080%20Programmers%20Manual.pdf)
 - [Datasheet](https://altairclone.com/downloads/manuals/8080%20Data%20Sheet.pdf)
 - [Instruction table](https://tobiasvl.github.io/optable/intel-8080/classic)

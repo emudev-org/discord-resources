@@ -2,7 +2,7 @@
 
 - **Overview of emulation development: <https://stackoverflow.com/a/448689>**
 - **Architecture overview of various consoles: <https://copetti.org/projects/consoles>**
-- An introduction: <http://emulator101.com>
+- An introduction: <http://www.emulator101.com>
 - Docs for various systems: <https://github.com/shonumi/Emu-Docs> (combine with resources below)
 - Emulation blogs: <https://dolphin-emu.org/blog>, [[archived] byuu.net/](https://web.archive.org/web/20201221154920/https://byuu.net/), <http://emudev.de>, [[archived] noxa.org/emulation/](https://web.archive.org/web/20220928023912/http://www.noxa.org/blog/category/coding/emulation/), <http://melonds.kuribo64.net/>, <https://pcsx2.net/blog/tags/devblog>, <https://shonumi.github.io/articles.html>, etc
 - Subreddit: <https://www.reddit.com/r/EmuDev>
