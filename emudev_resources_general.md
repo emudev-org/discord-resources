@@ -71,6 +71,8 @@ Optimizations
 - [Dead store](https://en.wikipedia.org/wiki/Dead_store)
 - [Code motion](https://en.wikipedia.org/wiki/Code_motion)
 - [Sparse conditional constant propagation](https://www.cs.wustl.edu/~cytron/531Pages/f11/Resources/Papers/cprop.pdf)
+- [Single Instruction Multiple Data](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data): Processing large batches of data using vector operations. Useful for optimizing rendering, audio processing, vector unit emulation, and all sorts of parallelizable tasks.
+  - You'll find several helpful resources for writing SSE/AVX/etc (SIMD extensions for x86) and NEON (arm32/arm64) scattered through both resource channels. Make sure to check them out if writing SIMD code.
 
 ### fastmem
 Fast memory accesses using host MMU.
@@ -166,6 +168,7 @@ For emulating 3D systems.
 - [glm](https://github.com/g-truc/glm): C++ library for faciliating vector, matrix and quaternion math. Particularly useful for graphics emulation.
 - [Hips](https://github.com/wheremyfoodat/Hips): Single header C++ library for applying IPS, BPS and UPS patches
 - [Discord-RPC](https://github.com/discord/discord-rpc): C++ library for adding discord RPC to your emulator, because we all love free advertisements.
+- [sse2neon](https://github.com/DLTcollab/sse2neon): C/C++ library that implements SSE intrinsics on arm32/arm64 systems using NEON equivalents. Useful if you want to avoid manually rewriting all your SIMD code, or if writing NEON yourself.
 
 ---
 
