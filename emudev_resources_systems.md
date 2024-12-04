@@ -307,6 +307,12 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## Sega Saturn
 - [SH-2 programming manual](https://antime.kapsi.fi/sega/files/h12p0.pdf)
+  - [Instruction set summary/table](https://shared-ptr.com/sh_insns.html)
+- [Yabause wiki](https://wiki.yabause.org/) (check the Sega Saturn Specifications section)
+- [Collection of docs](https://segaretro.org/Saturn_official_documentation)
+  - [The main page](https://segaretro.org/Sega_Saturn) has tons of details on the hardware, games, history, etc.
+- [Signal traces of various chips](https://github.com/srg320/Saturn_hw)
+  - [Partial CDBlock ROM decompilation](https://github.com/srg320/Saturn_hw/tree/main/CDB)
 - [GAM1 test ROM, harnessing most hardware](https://segaxtreme.net/threads/sega-saturn-sample-by-sega.24264)
 - Misc homebrew:
   - <http://www.rockin-b.de/saturn.html>
