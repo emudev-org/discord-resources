@@ -311,12 +311,30 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Yabause wiki](https://wiki.yabause.org/) (check the Sega Saturn Specifications section)
 - [Collection of docs](https://segaretro.org/Saturn_official_documentation)
   - [The main page](https://segaretro.org/Sega_Saturn) has tons of details on the hardware, games, history, etc.
+  - [More complete collection](https://techdocs.exodusemulator.com/Console/SegaSaturn/Documentation.html)
+  - [sattech](https://web.archive.org/web/20140318183509/http://cgfm2.emuviews.com/txt/sattech.txt)
 - [Signal traces of various chips](https://github.com/srg320/Saturn_hw)
   - [Partial CDBlock ROM decompilation](https://github.com/srg320/Saturn_hw/tree/main/CDB)
 - [GAM1 test ROM, harnessing most hardware](https://segaxtreme.net/threads/sega-saturn-sample-by-sega.24264)
 - Misc homebrew:
   - <http://www.rockin-b.de/saturn.html>
   - <https://reddit.com/r/SegaSaturn/comments/223cdp/best_saturn_homebrews_available_atm>
+  - [SegaXtreme forum](https://segaxtreme.net/forums/saturn-dev.34/)
+    - Keep an eye on the *SEGA Saturn Nth Anniversary Game Competition* threads, there's often a ton of fantastic homebrew there
+- [libyaul](https://github.com/yaul-org/libyaul) (for homebrew development)
+  - [Examples](https://github.com/yaul-org/libyaul-examples)
+  - [Docker image](https://github.com/yaul-org/libyaul-docker)
+  - Works well on WSL too
+- [240p test suite](https://github.com/ArtemioUrbina/240pTestSuite)
+  - [Saturn version](https://github.com/ArtemioUrbina/240pTestSuite/tree/master/240psuite/Saturn/240pTestSuite)
+  - [Precompiled image](https://segaxtreme.net/attachments/240p-7z.9354/)
+- CD-ROM and image formats
+  - [ECMA-130 spec](https://ecma-international.org/wp-content/uploads/ECMA-130_2nd_edition_june_1996.pdf)
+  - [Raw optical disc format](https://github.com/libyal/libodraw/blob/main/documentation/Optical%20disc%20RAW%20format.asciidoc)
+  - [Cue sheet format](https://problemkaputt.de/psxspx-cdrom-disk-images-cue-bin-cdt-cdrwin.htm), [2](https://github.com/libyal/libodraw/blob/main/documentation/CUE%20sheet%20format.asciidoc)
+  - [CCD/IMG/SUB formats](https://problemkaputt.de/psxspx-cdrom-disk-images-ccd-img-sub-clonecd.htm)
+  - [MDS/MDF formats](https://problemkaputt.de/psxspx-cdrom-disk-images-mds-mdf-alcohol-120.htm), [2](https://github.com/sizious/img4dc/blob/master/mds4dc/doc/mdf_mds.txt), [3](https://git.libretro.com/libretro/play/-/blob/red_faction_2/Source/discimages/MdsDiscImage.cpp?ref_type=heads)
+  - ISO is just a BIN with either 2048 or 2352 byte sectors; check if the file is divisible by one of these sizes and build a single data track with the whole file's contents
 
 ## Sega Dreamcast
 - [System Architecture Manual](https://segaretro.org/images/7/78/DreamcastDevBoxSystemArchitecture.pdf)
