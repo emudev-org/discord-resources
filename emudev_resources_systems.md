@@ -231,11 +231,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [PSX MDEC & CD-ROM info](https://github.com/m35/jpsxdec/blob/readme/jpsxdec/PlayStation1_STR_format.txt)
 - [PlayStation emulator development info](https://drhell.web.fc2.com/ps1/index.html)
   - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=http%3A%2F%2Fdrhell.web.fc2.com%2Fps1%2Findex.html)
-- LSI LR33000 CPU (PSX's MIPS core) resources:
-  - [Datasheet](https://github.com/novak36/emulation-docs/blob/c289c276b2746d3e80b354e3e94c78a2ba9abbea/Sony%20Playstation%201/lr3300-lsi.pdf?raw=true) 
-  - [Instruction Set Details](https://github.com/novak36/emulation-docs/blob/c289c276b2746d3e80b354e3e94c78a2ba9abbea/Sony%20Playstation%201/DSAIH00065846.pdf?raw=true)
-  - [Hardware-centric User's Manual](https://github.com/novak36/emulation-docs/blob/c289c276b2746d3e80b354e3e94c78a2ba9abbea/Sony%20Playstation%201/CI4002A_CW33000_MIPS_Embedded_Processor_Users_Manual_1992.pdf?raw=true)
-  - Software-centric User's Manual, first four chapters [(1)](https://github.com/novak36/emulation-docs/blob/c289c276b2746d3e80b354e3e94c78a2ba9abbea/Sony%20Playstation%201/Chap1.pdf?raw=true) [(2)](https://github.com/novak36/emulation-docs/blob/c289c276b2746d3e80b354e3e94c78a2ba9abbea/Sony%20Playstation%201/Chap2.pdf?raw=true) [(3)](https://github.com/novak36/emulation-docs/blob/c289c276b2746d3e80b354e3e94c78a2ba9abbea/Sony%20Playstation%201/Chap3.pdf?raw=true) [(4)](https://github.com/novak36/emulation-docs/blob/c289c276b2746d3e80b354e3e94c78a2ba9abbea/Sony%20Playstation%201/Chap4.pdf?raw=true)
+- [LSI LR33000 CPU (PSX's MIPS core) docs collection](https://github.com/novak36/emulation-docs/tree/main/Sony%20Playstation%201)
 - Test ROMs:
   - [Amidog's tests](https://emulation.gametechwiki.com/index.php/PS1_Tests)
   - <https://github.com/PeterLemon/PSX>
