@@ -231,6 +231,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [PSX MDEC & CD-ROM info](https://github.com/m35/jpsxdec/blob/readme/jpsxdec/PlayStation1_STR_format.txt)
 - [PlayStation emulator development info](https://drhell.web.fc2.com/ps1/index.html)
   - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=http%3A%2F%2Fdrhell.web.fc2.com%2Fps1%2Findex.html)
+- [LSI LR33000 CPU (PSX's MIPS core) docs collection](https://github.com/novak36/emulation-docs/tree/main/Sony%20Playstation%201)
 - Test ROMs:
   - [Amidog's tests](https://emulation.gametechwiki.com/index.php/PS1_Tests)
   - <https://github.com/PeterLemon/PSX>
