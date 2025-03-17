@@ -148,8 +148,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## Nintendo Entertainment System
 - See 65xx family resources
 - [6502 instruction set reference](https://www.masswerk.at/6502/6502_instruction_set.html)
-- [The NesDev wiki](https://wiki.nesdev.com)
-- [NES emulator development guide](https://nesdev.com/NES%20emulator%20development%20guide.txt)
+- [The NesDev wiki](https://wiki.nesdev.org)
+- [NES emulator development guide](https://nesdev.org/NES%20emulator%20development%20guide.txt)
 - [Overview of writing a NES emulator](https://yizhang82.dev/nes-emu-overview)
 - [Articles on writing a NES emulator (among other things)](https://emudev.de/nes-emulator/overview)
 - [Sample ROMs](https://github.com/PeterLemon/NES)
@@ -169,7 +169,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - Test ROMs:
   - <https://gitlab.com/higan/snes-test-roms>
   - <https://github.com/PeterLemon/SNES>
-  - [Blargg's SPC SNES test ROMs](https://forums.nesdev.com/viewtopic.php?f=12&t=18005)
+  - [Blargg's SPC SNES test ROMs](https://forums.nesdev.org/viewtopic.php?f=12&t=18005)
   - [More of Blargg's SNES test ROMs](https://web.archive.org/web/20150601173734/http://blargg.8bitalley.com/parodius/snes-tests)
 - [SNES sprite engine design guidelines](https://megacatstudios.com/blogs/retro-development/snes-sprite-engine-design-guidelines)
 - [SNES programming book](https://en.wikibooks.org/wiki/Super_NES_Programming)
@@ -428,7 +428,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## 65xx family
 - <https://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf>
-- [Programming manual](https://wiki.nesdev.com/w/images/7/76/Programmanual.pdf)
+- [Programming manual](https://wiki.nesdev.org/w/images/7/76/Programmanual.pdf)
 - [6502 decimal mode](https://www.atarimagazines.com/compute/issue50/268_1_MACHINE_LANGUAGE.php)
 
 ## 8080
