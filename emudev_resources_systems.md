@@ -271,6 +271,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - Plugins for Reverse Engineering
   - [Resolve NIDS](https://github.com/pspdev/psp-ghidra-scripts/tree/master)
   - [Allegrex Ghidra plugin](https://github.com/kotcrab/ghidra-allegrex)
+- [Allegrex Opcode Table](http://hlide.free.fr/)
 
 ## PlayStation Vita
 - VitaSDK docs: <https://docs.vitasdk.org/>
