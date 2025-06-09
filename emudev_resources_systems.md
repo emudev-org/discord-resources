@@ -430,7 +430,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## 65xx family
 - <https://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf>
-- [Programming manual](https://wiki.nesdev.org/w/images/7/76/Programmanual.pdf)
+- [Programming manual](https://www.nesdev.org/w/images/default/7/76/Programmanual.pdf)
 - [6502 decimal mode](https://www.atarimagazines.com/compute/issue50/268_1_MACHINE_LANGUAGE.php)
 
 ## 8080
