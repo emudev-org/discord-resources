@@ -61,6 +61,7 @@ Intermediate representation, which makes it easier to optimize and port to multi
 - [Register allocation](https://en.wikipedia.org/wiki/Register_allocation)
   - [Register Allocation And Spilling Via Graph Coloring](https://web.eecs.umich.edu/~mahlke/courses/583f12/reading/chaitin82.pdf), the classic way of register allocation in production compilers and some JITs
   - [Linear Scan Register Allocation](https://web.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf), a faster and simpler register allocation algorithm that produces good results, favorable in JITs for it's linear time
+  - [Solid State Register Allocation](https://www.mattkeeter.com/blog/2022-10-04-ssra/), a fast register allocation algorithm for branchless IR that avoids calculating liveness ranges. A variant of this is also used by LuaJIT.
 
 Optimizations
 - [Common subexpression elimination](https://en.wikipedia.org/wiki/Common_subexpression_elimination)
