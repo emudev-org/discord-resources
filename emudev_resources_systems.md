@@ -279,6 +279,16 @@ There are no "full" tutorials for other systems, so using references will be a b
 - VitaSDK Github repos with homebrew samples, a developer toolchain, and more: <https://github.com/vitasdk>
 - Guide for decompiling PS Vita SELFs with Ghidra: <https://forum.devchroma.nl/index.php?topic=88.0>
 
+## PC Engine (TurboGrafx-16)
+- [HuC6280 Opcode Matrix](https://www.chrismcovell.com/PCEdev/HuC6280_opcodes.html)
+- [HuC6280 Opcode Documentation](http://shu.emuunlim.com/download/pcedocs/pce_cpu.html)
+- [Huc6280 Assembly Guide](https://www.chibiakumas.com/6502/pcengine.php)
+- [PC Engine Developer Docs](https://archive.org/details/PCEDev/Hu7%20CD%20System%20-%20BIOS%20Manual/)
+- [VDC Programmers Reference](https://datacrystal.tcrf.net/wiki/VDC_Programmers_Reference_(Turbo-Grafx_16))
+- [VDC Documentation](https://raw.githubusercontent.com/franckverrot/EmulationResources/refs/heads/master/consoles/pc-engine/vdcdox.txt)
+- [VDC Useful Timings](https://pcengine.proboards.com/post/7633/thread)
+- [MagicKit Docs of Hardware Registers](http://www.magicengine.com/mkit/)
+
 ## Sega Game Gear
 - [VDP test ROM](https://www.retrorgb.com/game-gear-vdp-test-software.html)
 - [Button test ROM](https://github.com/GameGearSamples/ButtonTest)
