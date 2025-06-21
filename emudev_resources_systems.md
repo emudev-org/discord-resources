@@ -284,6 +284,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [HuC6280 Opcode Documentation](http://shu.emuunlim.com/download/pcedocs/pce_cpu.html)
 - [Huc6280 Assembly Guide](https://www.chibiakumas.com/6502/pcengine.php)
 - [PC Engine Developer Docs](https://archive.org/details/PCEDev/Hu7%20CD%20System%20-%20BIOS%20Manual/)
+- [PC Engine Tech Docs](https://raw.githubusercontent.com/asterick/TurboSharp/refs/heads/master/Text/pcetech.txt)
 - [VDC Programmers Reference](https://datacrystal.tcrf.net/wiki/VDC_Programmers_Reference_(Turbo-Grafx_16))
 - [VDC Documentation](https://raw.githubusercontent.com/franckverrot/EmulationResources/refs/heads/master/consoles/pc-engine/vdcdox.txt)
 - [VDC Useful Timings](https://pcengine.proboards.com/post/7633/thread)
