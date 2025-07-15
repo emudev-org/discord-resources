@@ -356,6 +356,9 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [ARM7DI Processor Manual](https://developer.arm.com/documentation/ddi0027/latest/)
 
 
+## Atari 8-bit Computers
+- [Altirra Hardware Reference Manual](https://www.virtualdub.org/downloads/Altirra%20Hardware%20Reference%20Manual.pdf)
+
 ## Commodore 64
 - See 6502 resources in the [65xx family section](#65xx-family) (the C64 uses a 6510)
 - [MCS6500 family programming manual](http://archive.6502.org/books/mcs6500_family_programming_manual.pdf) (doesn't respond to https://)
