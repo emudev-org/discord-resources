@@ -85,6 +85,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Notes by GhostSonic on GB sound emulation](https://www.reddit.com/r/EmuDev/comments/5gkwi5/gb_apu_sound_emulation/dat3zni)
 - [Explanation of binary-coded decimals and the DAA instruction](https://ehaskins.com/2018-01-30%20Z80%20DAA)
 - [Guide to the half-carry flag](https://robdor.com/2016/08/10/gameboy-emulator-half-carry-flag)
+- [Single step tests](https://github.com/SingleStepTests/sm83)
 
 ## Game Boy Advance
 - See relevant ARM resources below (the ARM7TDMI used in the GBA implements ARMv4T)
@@ -430,7 +431,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## Multiple systems
 - <https://www.zophar.net/documents.html>
-- <http://www.emulator101.com>
+- [http://www.emulator101.com](https://web.archive.org/web/20241010195903/http://www.emulator101.com/)
 - <http://hitmen.c02.at/index.html>
 - <http://www.codeslinger.co.uk> (doesn't respond to https://, disable extensions such as HTTPS Everywhere if it doesn't load)
 - <https://emudev.de>
@@ -448,7 +449,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [6502 decimal mode](https://www.atarimagazines.com/compute/issue50/268_1_MACHINE_LANGUAGE.php)
 
 ## 8080
-- [8080 tutorial (among other things)](http://www.emulator101.com)
+- [8080 tutorial (among other things)](https://web.archive.org/web/20241010195903/http://www.emulator101.com/)
 - [Assembly programming manual](https://altairclone.com/downloads/manuals/8080%20Programmers%20Manual.pdf)
 - [Datasheet](https://altairclone.com/downloads/manuals/8080%20Data%20Sheet.pdf)
 - [Instruction table](https://tobiasvl.github.io/optable/intel-8080/classic)
