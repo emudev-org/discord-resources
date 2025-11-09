@@ -256,6 +256,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## PlayStation 4
 - [Reverse Engineering PlayStation 4](https://emulation.gametechwiki.com/index.php/PlayStation_4_emulators#Reverse_engineering_PlayStation_4)
+- [Southern Islands Programming Guide](https://www.amd.com/content/dam/amd/en/documents/radeon-tech-docs/programmer-references/si_programming_guide_v2.pdf) (misc. docs including PM4 packet layout)
+- [Radeon Sea Islands 3D/Compute Register Reference Guide](https://www.x.org/docs/AMD/old/CIK_3D_registers_v2.pdf)
 
 ## PlayStation Portable
 - Hardware
