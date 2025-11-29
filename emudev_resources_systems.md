@@ -33,6 +33,17 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## Bytepusher
 - <https://esolangs.org/wiki/BytePusher>
 
+## COSMAC-VIP
+- **[COSMAC VIP instruction manual](https://bitsavers.org/components/rca/cosmac/COSMAC_VIP_Instruction_Manual_1978.pdf)**.
+- **[CDP1802 CPU instrction manual by RCA](https://bitsavers.trailing-edge.com/components/rca/cosmac/MPM-201A_User_Manual_for_the_CDP1802_COSMAC_Microprocessor_1976.pdf)**.
+- **[CDP1802 CPU instruction manual by Intersil](https://tayloredge.com/reference/Electronics/Logic/CDP1802.pdf)**.
+- **[CDP1861 video display controller manual](https://wiki.console5.com/tw/images/d/dd/RCA_CDP1861C.pdf)**.
+- [Expansion boards documentation](https://github.com/cskordis/Cosmac-VIP-Color-Board-VP590).
+- [CDP1862 color generator controller manual](http://www.cosmacelf.com/publications/data-sheets/cdp1862.pdf).
+- [Emma02's COSMAC VIP documentation](https://www.emma02.hobby-site.com/vip.html).
+- [COSMAC ELF group on groups.io](https://groups.io/g/cosmacelf).
+- [VIPER magazines repository](https://github.com/mattmikolay/viper/tree/master).
+
 ## Pac-Man
 - See Z80 resources
 - [Pac-Man emulation guide](https://www.lomont.org/software/games/pacman/PacmanEmulation.pdf)
