@@ -29,8 +29,6 @@ There are no "full" tutorials for other systems, so using references will be a b
   - [VIPER magazines and more](https://github.com/trapexit/chip-8_documentation/tree/master)
   - [ROM compatibility issues](https://github.com/tomdaley92/Kiwi8/issues/9)
   - [Database of platform/rom settings](https://github.com/chip-8/chip-8-database/)
-  - [Writing a CHIP-8 interpreter for the COSMAC ELF](https://cdn.discordapp.com/attachments/465586212804100106/482263592696152074/ELF_CHIP-8_Interpreter.pdf)
-  - [COSMAC VIP manual](https://cdn.discordapp.com/attachments/465586212804100106/482263593753247744/VIP_Manual_Game_Manual_I.pdf)
 
 ## Bytepusher
 - <https://esolangs.org/wiki/BytePusher>
