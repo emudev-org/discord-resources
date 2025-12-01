@@ -29,11 +29,20 @@ There are no "full" tutorials for other systems, so using references will be a b
   - [VIPER magazines and more](https://github.com/trapexit/chip-8_documentation/tree/master)
   - [ROM compatibility issues](https://github.com/tomdaley92/Kiwi8/issues/9)
   - [Database of platform/rom settings](https://github.com/chip-8/chip-8-database/)
-  - [Writing a CHIP-8 interpreter for the COSMAC ELF](https://cdn.discordapp.com/attachments/465586212804100106/482263592696152074/ELF_CHIP-8_Interpreter.pdf)
-  - [COSMAC VIP manual](https://cdn.discordapp.com/attachments/465586212804100106/482263593753247744/VIP_Manual_Game_Manual_I.pdf)
 
 ## Bytepusher
 - <https://esolangs.org/wiki/BytePusher>
+
+## COSMAC-VIP
+- **[COSMAC VIP instruction manual](https://bitsavers.org/components/rca/cosmac/COSMAC_VIP_Instruction_Manual_1978.pdf)**.
+- **[CDP1802 CPU instrction manual by RCA](https://bitsavers.trailing-edge.com/components/rca/cosmac/MPM-201A_User_Manual_for_the_CDP1802_COSMAC_Microprocessor_1976.pdf)**.
+- **[CDP1802 CPU instruction manual by Intersil](https://tayloredge.com/reference/Electronics/Logic/CDP1802.pdf)**.
+- **[CDP1861 video display controller manual](https://wiki.console5.com/tw/images/d/dd/RCA_CDP1861C.pdf)**.
+- [Expansion boards documentation](https://github.com/cskordis/Cosmac-VIP-Color-Board-VP590).
+- [CDP1862 color generator controller manual](http://www.cosmacelf.com/publications/data-sheets/cdp1862.pdf).
+- [Emma02's COSMAC VIP documentation](https://www.emma02.hobby-site.com/vip.html).
+- [COSMAC ELF group on groups.io](https://groups.io/g/cosmacelf).
+- [VIPER magazines repository](https://github.com/mattmikolay/viper/tree/master).
 
 ## Pac-Man
 - See Z80 resources
