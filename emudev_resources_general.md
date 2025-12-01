@@ -29,23 +29,27 @@ High Level Emulation vs Low Level Emulation
 - <https://alexaltea.github.io/blog/posts/2018-04-18-lle-vs-hle>
 - <http://emulation.gametechwiki.com/index.php/High/Low_level_emulation>
 
-### CPU emulation, cached interpeters
+### CPU Emulation: Cached Interpeters
 - Code Translation Techniques: [[archived] noxa.org/building-an-xbox-360-emulator-part-6-code-translation-techniques/](http://www.noxa.org/blog/2011/08/21/building-an-xbox-360-emulator-part-6-code-translation-techniques/)
 - Writing a Cached Interpreter: <https://emudev.org/2021/01/31/cached-interpreter.html>
 - Faster interpreters: <http://www.emulators.com/docs/nx25_nostradamus.htm>
 - Computed goto: https://eli.thegreenplace.net/2012/07/12/computed-goto-for-efficient-dispatch-tables
 
-### Dynarecs/JITs and AOTs
+### CPU Emulation: JIT (Just-In-Time) Compilers / "Dynarecs"
 Just-In-Time and Ahead-of-Time compilers.
 - Wikipedia: <https://www.wikiwand.com/en/Just-in-time_compilation>  (just for an overview of what it is)
 - <https://github.com/spencertipping/jit-tutorial>
 - <http://blog.reverberate.org/2012/12/hello-jit-world-joy-of-simple-jits.html>
 - <https://emudev.org/docs/1964-recompiling-engine-documentation.pdf>
 - <https://bheisler.github.io/post/experiments-in-nes-jit-compilation>
-- <https://andrewkelley.me/post/jamulator.html> (**AOT**. most other links here are about **JIT**ing)
+
+### CPU Emulation: AOT (Ahead-of-Time) Compilers
+- <https://andrewkelley.me/post/jamulator.html>
+- <https://themaister.net/blog/2019/01/27/an-unusual-recompiler-experiment-mips-to-llvm-ir-part-1/>
 - <https://www.davidsharp.com/tarmac/> (see pdf at the end)
 
-Intermediate representation, which makes it easier to optimize and port to multiple host targets.
+### Intermediate representation
+Makes it easier to optimize and port to multiple host targets.
 - [Intermediate representation](https://en.wikipedia.org/wiki/Intermediate_representation)
 - [Three address code](https://en.wikipedia.org/wiki/Three-address_code), common IR representation
 - [Static single assignment](https://en.wikipedia.org/wiki/Static_single-assignment_form), property of IR that makes optimizations easier at the cost of difficulty in entering/exiting this form
@@ -63,7 +67,7 @@ Intermediate representation, which makes it easier to optimize and port to multi
   - [Linear Scan Register Allocation](https://web.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf), a faster and simpler register allocation algorithm that produces good results, favorable in JITs for it's linear time
   - [Solid State Register Allocation](https://www.mattkeeter.com/blog/2022-10-04-ssra/), a fast register allocation algorithm for branchless IR that avoids calculating liveness ranges. A variant of this is also used by LuaJIT.
 
-Optimizations
+**Optimizations**
 - [Common subexpression elimination](https://en.wikipedia.org/wiki/Common_subexpression_elimination)
 - [Partial-redundancy elimination](https://en.wikipedia.org/wiki/Partial-redundancy_elimination)
 - [Global value numbering](https://en.wikipedia.org/wiki/Value_numbering)

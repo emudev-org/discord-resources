@@ -29,11 +29,20 @@ There are no "full" tutorials for other systems, so using references will be a b
   - [VIPER magazines and more](https://github.com/trapexit/chip-8_documentation/tree/master)
   - [ROM compatibility issues](https://github.com/tomdaley92/Kiwi8/issues/9)
   - [Database of platform/rom settings](https://github.com/chip-8/chip-8-database/)
-  - [Writing a CHIP-8 interpreter for the COSMAC ELF](https://cdn.discordapp.com/attachments/465586212804100106/482263592696152074/ELF_CHIP-8_Interpreter.pdf)
-  - [COSMAC VIP manual](https://cdn.discordapp.com/attachments/465586212804100106/482263593753247744/VIP_Manual_Game_Manual_I.pdf)
 
 ## Bytepusher
 - <https://esolangs.org/wiki/BytePusher>
+
+## COSMAC-VIP
+- **[COSMAC VIP instruction manual](https://bitsavers.org/components/rca/cosmac/COSMAC_VIP_Instruction_Manual_1978.pdf)**.
+- **[CDP1802 CPU instrction manual by RCA](https://bitsavers.trailing-edge.com/components/rca/cosmac/MPM-201A_User_Manual_for_the_CDP1802_COSMAC_Microprocessor_1976.pdf)**.
+- **[CDP1802 CPU instruction manual by Intersil](https://tayloredge.com/reference/Electronics/Logic/CDP1802.pdf)**.
+- **[CDP1861 video display controller manual](https://wiki.console5.com/tw/images/d/dd/RCA_CDP1861C.pdf)**.
+- [Expansion boards documentation](https://github.com/cskordis/Cosmac-VIP-Color-Board-VP590).
+- [CDP1862 color generator controller manual](http://www.cosmacelf.com/publications/data-sheets/cdp1862.pdf).
+- [Emma02's COSMAC VIP documentation](https://www.emma02.hobby-site.com/vip.html).
+- [COSMAC ELF group on groups.io](https://groups.io/g/cosmacelf).
+- [VIPER magazines repository](https://github.com/mattmikolay/viper/tree/master).
 
 ## Pac-Man
 - See Z80 resources
@@ -257,6 +266,8 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## PlayStation 4
 - [Reverse Engineering PlayStation 4](https://emulation.gametechwiki.com/index.php/PlayStation_4_emulators#Reverse_engineering_PlayStation_4)
+- [Southern Islands Programming Guide](https://www.amd.com/content/dam/amd/en/documents/radeon-tech-docs/programmer-references/si_programming_guide_v2.pdf) (misc. docs including PM4 packet layout)
+- [Radeon Sea Islands 3D/Compute Register Reference Guide](https://www.x.org/docs/AMD/old/CIK_3D_registers_v2.pdf)
 
 ## PlayStation Portable
 - Hardware
@@ -516,13 +527,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [MIPS64 Instruction Set Reference Manual](https://s3-eu-west-1.amazonaws.com/downloads-mips/documents/MD00087-2B-MIPS64BIS-AFP-6.06.pdf)
 - [IDT R30xx Family Software Reference Manual](https://cgi.cse.unsw.edu.au/~cs3231/doc/R3000.pdf) (PS1 CPU, PS2 IOP)
 - [VR43xx CPU manual](http://datasheets.chipdb.org/NEC/Vr-Series/Vr43xx/U10504EJ7V0UMJ1.pdf) (Nintendo 64)
-
-## Itanium
-- [Itanium Architecture Software Developer's Manual](https://cdn.discordapp.com/attachments/698838582181363752/805813408309837904/itanium-architecture-vol-1-2-3-4-reference-set-manual.pdf) ([original](https://www.intel.com/content/dam/doc/manual/itanium-architecture-vol-1-2-3-4-reference-set-manual.pdf))
-- [Itanium System Abstraction Layer Specification](https://cdn.discordapp.com/attachments/698838582181363752/805813867694653500/itanium-system-abstraction-layer-specification.pdf) ([original](https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/itanium-system-abstraction-layer-specification.pdf))
-- [460GX Chipset Developer's Manual](https://cdn.discordapp.com/attachments/698838582181363752/805814367097716766/460gx.pdf) ([original](https://www.manualslib.com/manual/77665/Intel-460gx.html))
-- [Intel® E8870IO Server I/O Hub Datasheet](https://cdn.discordapp.com/attachments/698838582181363752/805814970977747015/e8870io-server-io-hub-datasheet.pdf) ([original](https://www.intel.com/content/dam/doc/datasheet/e8870io-server-io-hub-datasheet.pdf))
-- [Intel® E8870 SNC Datasheet](https://cdn.discordapp.com/attachments/698838582181363752/805815757861945344/e8870-snc-datasheet.pdf) ([original](https://pccomponents.com/datasheets/INTEL-251112.PDF))
 
 **Contributing**
 
