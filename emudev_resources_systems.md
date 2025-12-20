@@ -80,7 +80,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [A journey into GB emulation](https://robertovaccari.com/blog/2020_09_26_gameboy)
 - <http://www.codeslinger.co.uk/pages/projects/gameboy.html>
 - [WIP tutorial on writing a GB emulator in Rust](https://rylev.github.io/DMG-01/public/book/)
-- [GameBoy Emulator Development Guide](https://hacktix.github.io/GBEDG)
+- [GameBoy Emulator Development Guide](https://github.com/Ashiepaws/GBEDG)
 - Test ROMs:
   - [Blargg's test ROMs](https://github.com/retrio/gb-test-roms)
   - [Mooneye-gb test ROMs](https://github.com/Gekkio/mooneye-gb/tree/master/tests)
