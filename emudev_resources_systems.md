@@ -75,7 +75,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [The Cycle-Accurate GB Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf)
 - [Opcode table](https://izik1.github.io/gbops/table/table.html)
 - [List of GB opcodes and their behavior](https://rednex.github.io/rgbds/gbz80.7.html)
-- [GB instruction decoding table](https://cdn.discordapp.com/attachments/465586075830845475/742438340078469150/SM83_decoding.pdf)
+- [GB instruction decoding table](https://github.com/wheremyfoodat/Panda3DS/blob/cdn/docs/SM83_decoding.pdf)
 - [Decoding GB opcodes algorithmically](https://gb-archive.github.io/salvage/decoding_gbz80_opcodes/Decoding%20Gamboy%20Z80%20Opcodes.html)
 - [A journey into GB emulation](https://robertovaccari.com/blog/2020_09_26_gameboy)
 - <http://www.codeslinger.co.uk/pages/projects/gameboy.html>
