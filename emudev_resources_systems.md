@@ -375,6 +375,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - See 6502 resources in the [65xx family section](#65xx-family) (the C64 uses a 6510)
 - [MCS6500 family programming manual](http://archive.6502.org/books/mcs6500_family_programming_manual.pdf) (doesn't respond to https://)
 - Summary of single-cycle execution with the [6502 addressing modes](https://xotmatrix.github.io/6502/6502-single-cycle-execution.html)
+- Implementation of [illegal opcodes (instruction + addressing mode)](https://www.cpcwiki.eu/imgs/7/7d/NoMoreSecrets-NMOS6510UnintendedOpcodes-20212412.pdf) for the NMOS 6510
 - [C64 wiki](https://www.c64-wiki.com)
 - [VICE test ROMs](https://vice-emu.pokefinder.org/index.php/Testbench)
 - [SID manual](http://archive.6502.org/datasheets/mos_6581_sid.pdf) (doesn't respond to https://)
@@ -458,6 +459,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - <https://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf>
 - [Programming manual](https://www.nesdev.org/w/images/default/7/76/Programmanual.pdf)
 - [6502 decimal mode](https://www.atarimagazines.com/compute/issue50/268_1_MACHINE_LANGUAGE.php)
+- Implementation of [illegal opcodes (instruction + addressing mode)](https://www.cpcwiki.eu/imgs/7/7d/NoMoreSecrets-NMOS6510UnintendedOpcodes-20212412.pdf) for the NMOS 6510
 
 ## 8080
 - [8080 tutorial (among other things)](https://web.archive.org/web/20241010195903/http://www.emulator101.com/)
