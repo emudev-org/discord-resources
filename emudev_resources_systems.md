@@ -458,6 +458,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - <https://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf>
 - [Programming manual](https://www.nesdev.org/w/images/default/7/76/Programmanual.pdf)
 - [6502 decimal mode](https://www.atarimagazines.com/compute/issue50/268_1_MACHINE_LANGUAGE.php)
+- Implementation of [illegal opcodes (instruction + addressing mode)](https://www.cpcwiki.eu/imgs/7/7d/NoMoreSecrets-NMOS6510UnintendedOpcodes-20212412.pdf) for the NMOS 6510
 
 ## 8080
 - [8080 tutorial (among other things)](https://web.archive.org/web/20241010195903/http://www.emulator101.com/)
