@@ -159,6 +159,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 ## Nintendo Entertainment System
 - See 65xx family resources
 - [6502 instruction set reference](https://www.masswerk.at/6502/6502_instruction_set.html)
+- [L-Spiro's Ricoh 2A03 Instructions reference](https://github.com/L-Spiro/BeesNES/tree/main/Research/Instructions)
 - [The NesDev wiki](https://wiki.nesdev.org)
 - [NES emulator development guide](https://nesdev.org/NES%20emulator%20development%20guide.txt)
 - [Overview of writing a NES emulator](https://yizhang82.dev/nes-emu-overview)
@@ -169,6 +170,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - See 65xx family resources
 - [fullsnes](https://problemkaputt.de/fullsnes.htm)
 - [65c816 primer](https://softpixel.com/~cwright/sianse/docs/65816NFO.HTM)
+- [L-Spiro's Ricoh 5A22 and SPC-700 instructions reference](https://github.com/L-Spiro/BirdSNES/tree/main/Research/Instructions)
 - [YouTube playlist](https://www.youtube.com/playlist?list=PLHQ0utQyFw5KCcj1ljIhExH_lvGwfn6GV)
 - [Adventures in Retro Development: SNES Edition](https://mynameismjp.wordpress.com/2019/01/14/adventures-in-retro-development-snes-edition) (focuses on homebrew development environment)
 - [Anomie's SNES docs](https://www.romhacking.net/?page=documents&platform=9&author=548)
