@@ -51,7 +51,6 @@ for channel_config in config:
     channel_config["messages"] = get_split_contents(channel_config["file"])
 
 intents = discord.Intents.default()
-intents.message_content = True
 
 client = discord.Client(intents=intents)
 
