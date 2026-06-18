@@ -73,6 +73,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 
 ## Game Boy / Game Boy Color
 - [Pandocs](https://gbdev.io/pandocs)
+- [GB: Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf)
 - [The Cycle-Accurate GB Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf)
 - [Opcode table](https://izik1.github.io/gbops/table/table.html)
 - [List of GB opcodes and their behavior](https://rednex.github.io/rgbds/gbz80.7.html)
