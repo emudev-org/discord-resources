@@ -115,7 +115,7 @@ There are no "full" tutorials for other systems, so using references will be a b
   - <https://github.com/PeterLemon/GBA>
   - <https://github.com/ladystarbreeze/gba-tests/tree/master/dma-test>
   - <https://github.com/mgba-emu/suite>
-  - <https://github.com/nba-emu/hw-test>
+  - <https://codeberg.org/nba-emu/hw-test>
   - <https://gbadev.net/gbadoc/>
   - [Testrom Execution Logs](https://github.com/skylersaleh/GBA-Logs)
 - [mGBA blog](https://mgba.io) (particularly the "development" and "emulation" tags)
