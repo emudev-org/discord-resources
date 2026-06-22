@@ -232,7 +232,6 @@ There are no "full" tutorials for other systems, so using references will be a b
   - [Rendered](https://cdn.discordapp.com/attachments/492036343376117778/492037613721616406/guide.PDF)
 - [psx-spx (original)](https://problemkaputt.de/psx-spx.htm)
 - [psx-spx (modernized and actively maintained)](https://psx-spx.consoledev.net/)
-- [PSX reverse engineering project](https://github.com/ogamespec/psxdev/tree/master/reverse)
 - [BIOS info](http://wiki.psxdev.ru/index.php/BIOS)
   - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=http://wiki.psxdev.ru/index.php/BIOS)
 - [The PSX GPU texture pipeline and how to emulate it](https://www.reddit.com/r/EmuDev/comments/fmhtcn)
