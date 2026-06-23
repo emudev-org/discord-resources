@@ -11,7 +11,7 @@ For potentially more resources on your system, also see pinned messages in relev
 # Systems
 
 ## CHIP-8
-See the HIgh-level guide if you want detailed step-by-step instructions, otherwise use the `References`.
+See the High-level guide if you want detailed step-by-step instructions, otherwise use the `References`.
 
 There are no "full" tutorials for other systems, so using references will be a bit more challenging but more realistic and perhaps more helpful in the long run, assuming you'll want to move on to other systems after CHIP-8.
 - **[High-level guide to making a CHIP-8 emulator](https://tobiasvl.github.io/blog/write-a-chip-8-emulator/)**
