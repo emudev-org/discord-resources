@@ -10,6 +10,38 @@ For potentially more resources on your system, also see pinned messages in relev
 
 # Systems
 
+## Amiga
+- [Info on the Amiga and "Another World"](https://fabiensanglard.net/another_world_polygons_amiga500/index.html)
+
+## ARM
+- [ARM instruction set info for the ARM7TDMI-S](https://vision.gel.ulaval.ca/~jflalonde/cours/1001/h17/docs/arm-instructionset.pdf) (not the full document, which apparently can't be found anymore)
+- [ARM7TDMI datasheet](https://www.dwedit.org/files/ARM7TDMI.pdf) (contains info about ARM and thumb instruction sets)
+- [ARM7TDMI Technical Reference Manual](https://documentation-service.arm.com/static/5f4786a179ff4c392c0ff819)
+- [ARM7TDMI-S Technical Reference Manual](https://documentation-service.arm.com/static/5e8e13a9fd977155116a3368) (doesn't contain instruction descriptions, but has info on timing)
+- [ARMv5TE Reference Manual](https://web.archive.org/web/20231212000012/https://cdn.discordapp.com/attachments/667132407262216272/733255145495986246/ARMv5TE_reference_manual.pdf) (contains a few corrections to the original documents)
+- [ARM9E-S Technical Reference Manual](https://documentation-service.arm.com/static/5e8e2f18fd977155116a77fb) (contains info on timing that applies to all ARM9\*E-S processors)
+- [ARM946E-S Technical Reference Manual](https://documentation-service.arm.com/static/5f032835cafe527e86f5b8ad)
+- [ARMv6 Reference Manual](https://www.scs.stanford.edu/~zyedidia/docs/arm/armv6.pdf)
+- [ARMv7-A/R Reference Manual](https://documentation-service.arm.com/static/5f1074ce0daa596235e834b5)
+- [ARM11 MPCore Technical Reference Manual](https://documentation-service.arm.com/static/5e8e1e0388295d1e18d368b2)
+
+## ARM64
+- [ARMv8 and ARMv9 A-Profile Architecture manual](https://developer.arm.com/documentation/ddi0487/latest/)
+- [ARM64 cheatsheet](https://github.com/wheremyfoodat/Panda3DS/blob/cdn/docs/arm64_cheat_sheet.pdf)
+- [NEON intrinsic reference](https://arm-software.github.io/acle/neon_intrinsics/advsimd.html)
+
+## Atari 8-bit Computers
+- [Altirra Hardware Reference Manual](https://www.virtualdub.org/downloads/Altirra%20Hardware%20Reference%20Manual.pdf)
+
+## Bytepusher
+- <https://esolangs.org/wiki/BytePusher>
+
+## Casio PV-1000
+- See Z80 resources
+- [Casio PV-1000 Obscure Wiki](https://obscure.nesdev.org/wiki/Casio_PV-1000)
+- [Casio PV-1000 Hardware notes](https://notes.world3.net/retro_computing/casio_pv-1000.html)
+- [Casio PV-1000 Emulation notes](https://yughias.github.io/pages/pv-1000/documentation/docs.html)
+
 ## CHIP-8
 See the High-level guide if you want detailed step-by-step instructions, otherwise use the `References`.
 
@@ -31,8 +63,25 @@ There are no "full" tutorials for other systems, so using references will be a b
   - [ROM compatibility issues](https://github.com/tomdaley92/Kiwi8/issues/9)
   - [Database of platform/rom settings](https://github.com/chip-8/chip-8-database/)
 
-## Bytepusher
-- <https://esolangs.org/wiki/BytePusher>
+## Commodore 64
+- See 6502 resources in the [65xx family section](#65xx-family) (the C64 uses a 6510)
+- [MCS6500 family programming manual](http://archive.6502.org/books/mcs6500_family_programming_manual.pdf) (doesn't respond to https://)
+- Summary of single-cycle execution with the [6502 addressing modes](https://xotmatrix.github.io/6502/6502-single-cycle-execution.html)
+- [C64 wiki](https://www.c64-wiki.com)
+- [VICE test ROMs](https://vice-emu.pokefinder.org/index.php/Testbench)
+- [SID manual](http://archive.6502.org/datasheets/mos_6581_sid.pdf) (doesn't respond to https://)
+- [C64 assembly language programming](https://www.retro-programming.de)
+  - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fwww.retro-programming.de)
+- [Scanline missing cycles](http://www.antimon.org/dl/c64/code/missing.txt)
+- [Opening the borders](http://www.antimon.org/dl/c64/code/opening.txt)
+- [Info on the VIC-II](http://www.zimmers.net/cbmpics/cbm/c64/vic-ii.txt)
+- [SID info](http://www.oxyron.de/html/registers_sid.html) (doesn't respond to https://)
+- Programming the C64's SID:
+  - [Part 1](https://www.atarimagazines.com/compute/issue49/424_1_Programming_64_Sound.php)
+  - [Part 2](https://www.atarimagazines.com/compute/issue50/277_1_Programming_64_Sound.php)
+- [6502 decimal mode](https://www.atarimagazines.com/compute/issue50/268_1_MACHINE_LANGUAGE.php)
+- [The Commodore 64 Music Book](https://archive.org/details/The_Commodore_64_Music_Book)
+- [C64 user's guide (start of sound chapter)](https://archive.org/details/Commodore_64_Users_Guide_1984_Commodore/page/n87)
 
 ## COSMAC-VIP
 - **[COSMAC VIP instruction manual](https://bitsavers.org/components/rca/cosmac/COSMAC_VIP_Instruction_Manual_1978.pdf)**.
@@ -44,24 +93,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Emma02's COSMAC VIP documentation](https://www.emma02.hobby-site.com/vip.html).
 - [COSMAC ELF group on groups.io](https://groups.io/g/cosmacelf).
 - [VIPER magazines repository](https://github.com/mattmikolay/viper/tree/master).
-
-## Pac-Man
-- See Z80 resources
-- [Pac-Man emulation guide](https://www.lomont.org/software/games/pacman/PacmanEmulation.pdf)
-- [Disassembly](http://cubeman.org/arcade-source/pacman.asm)
-
-## Space Invaders
-- See 8080 resources
-- [SN76477N technical data](https://web.archive.org/web/20150425030455/http://www.emutalk.net/attachment.php?attachmentid=34143&d=1160668005)
-- [General info on Space Invaders](http://www.brentradio.com/SpaceInvaders.htm)
-- [Space Invaders disassembly and info](https://computerarcheology.com/Arcade/SpaceInvaders)
-- [CPU tests](https://altairclone.com/downloads/cpu_tests) (need a CP/M implementation or to fake it to some extent, see CP/M section and [this Discord message](https://discord.com/channels/465585922579103744/466417993912680459/735434453228191794))
-
-## Casio PV-1000
-- See Z80 resources
-- [Casio PV-1000 Obscure Wiki](https://obscure.nesdev.org/wiki/Casio_PV-1000)
-- [Casio PV-1000 Hardware notes](https://notes.world3.net/retro_computing/casio_pv-1000.html)
-- [Casio PV-1000 Emulation notes](https://yughias.github.io/pages/pv-1000/documentation/docs.html)
 
 ## CP/M
 - See 8080 resources
@@ -122,6 +153,62 @@ There are no "full" tutorials for other systems, so using references will be a b
 - Homebrew development:
   - <https://patater.com/gbaguy/gbaasm.htm>
 
+## Mac
+- See Motorola 68K / PowerPC resources
+- [Apple's guide to the macintosh family hardware](https://archive.org/details/apple-guide-macintosh-family-hardware) (400 MB pdf)
+- [Inside Macintosh Volume III](https://vintageapple.org/inside_o/pdf/Inside_Macintosh_Volume_III_1985.pdf)
+- [Macintosh error codes](https://discussions.apple.com/thread/1883152?sortBy=best)
+
+## MSX
+- See Z80 resources
+- [Test ROMs](https://github.com/PeterLemon/MSX)
+
+## Neo Geo
+- [Development wiki](https://wiki.neogeodev.org/index.php?title=Main_Page) (has overviews of every piece of hardware)
+- [Sample ROMs](https://github.com/PeterLemon/NEO-GEO)
+
+## Neo Geo Pocket (Color)
+- [Toshiba TLCS-900/H CPU Manual](https://toshiba.semicon-storage.com/info/catalog_en_20010831_ALT00146.pdf?did=7768)
+- [TMP95CS64F Manual](https://datasheetspdf.com/pdf-file/1217217/Toshiba/TMP95CS64F/1) (thought to be the microcontroller the NGPC is based around)
+- [NGPC Memory Map/Technical Reference](https://github.com/OpenEmu/NeoPop-Core/blob/master/Core/docs/Memory%20Map.txt)
+  - Older similar documents:
+  - <http://neopocott.emuunlim.com/docs/tech-11.txt>
+  - <http://devrs.com/ngp/files/ngpctech.txt>
+- [Archive of More Resources](https://archive.org/details/neopop_source)
+- [Homebrew Development Kit](http://sebastianmihai.com/neogeo-pocket-ngcollector.html)
+- [More Homebrew](https://thor.pdroms.de/#ngpcdev)
+
+## Nintendo 3DS
+- See relevant ARM resources below (the 3DS's ARM11 MPCore implements ARMv6K, not plain ARMv6, so you'll have toat the ARMv7-AR manual too for the few additions; the ARM9 is the same as on the Nintendo DS)
+- [GBATEK](https://problemkaputt.de/gbatek.htm)
+- [The 3DBrew wiki](https://www.3dbrew.org/wiki/Main_Page)
+- [Libctru demos](https://github.com/devkitPro/3ds-examples)
+- [CRO documentation](https://gist.github.com/wwylele/325d53ee6a0f1dff6aa3473377335d93)
+- [Audio tests](https://github.com/Panda3DS-emu/3ds-audio)
+- [CTRPF cheat code documentation](https://gist.github.com/Nanquitas/d6c920a59c757cf7917c2bffa76de860)
+- [Subv's additional findings on the kernel's threading system](https://gist.github.com/Subv/02f29bd9f1e5deb7aceea1e8f019c8f4) (meant to complement the relevant 3DBrew page)
+- [Simple hommebrew userland tests](https://github.com/wheremyfoodat/Panda3DS/tree/master/tests)
+- [DSP1 binary loader for Ghidra](https://github.com/SachinVin/Dsp1LoaderGhidra) (For DSP .cdc firmware files, you can dump them from hardware or Panda3DS)
+- [Teak DSP Ghidra SLEIGH plugin](https://github.com/SachinVin/TeakLite-SLEIGH/tree/main)
+- [Teakra](https://github.com/wwylele/teakra): Teak DSP assembly, disassembly and emulation library
+- [3DS hacking guide](https://3ds.hacks.guide/)
+- [Documentation of some system archives](https://github.com/B3n30/citra_system_archives) (Mii data, OS font, etc) and Python scripts for generating non-copyrighted replacements.
+
+## Nintendo 64
+- See MIPS resources
+- <https://n64.readthedocs.io>
+- <https://n64brew.dev>
+- [Notes and resources](https://github.com/Dillonb/n64-resources)
+- [Development resources](https://ultra64.ca/resources/documentation)
+- [Info on the N64's boot code](https://www.retroreversing.com/n64bootcode)
+- [Test ROMs](https://github.com/PeterLemon/N64)
+- [Fork of the above test ROMs, with a few more ones](https://github.com/fraser125/N64) (significantly outdated)
+- <https://github.com/lemmy-64/n64-systemtest>
+- [RSP docs](https://github.com/rasky/r64emu/blob/master/doc/rsp.md)
+- [Other resources](https://n64.dev)
+- 64DD: <https://github.com/LuigiBlood/64dd/wiki>
+- [Parallel-RDP](https://github.com/Themaister/parallel-rdp): RDP emulation plugin using Vulkan + compute shaders
+
 ## Nintendo DS
 - See relevant ARM resources below (the DS uses an ARM7TDMI and an ARM946E-S, implementing respectively ARMv4 and ARMv5TE)
 - [GBATEK](https://problemkaputt.de/gbatek.htm)
@@ -141,22 +228,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Arisotura's blog](https://melonds.kuribo64.net)
 - [Ongoing rasterizer timing research](https://melonds.kuribo64.net/board/thread.php?pid=6560#6560)
 
-## Nintendo 3DS
-- See relevant ARM resources below (the 3DS's ARM11 MPCore implements ARMv6K, not plain ARMv6, so you'll have toat the ARMv7-AR manual too for the few additions; the ARM9 is the same as on the Nintendo DS)
-- [GBATEK](https://problemkaputt.de/gbatek.htm)
-- [The 3DBrew wiki](https://www.3dbrew.org/wiki/Main_Page)
-- [Libctru demos](https://github.com/devkitPro/3ds-examples)
-- [CRO documentation](https://gist.github.com/wwylele/325d53ee6a0f1dff6aa3473377335d93)
-- [Audio tests](https://github.com/Panda3DS-emu/3ds-audio)
-- [CTRPF cheat code documentation](https://gist.github.com/Nanquitas/d6c920a59c757cf7917c2bffa76de860)
-- [Subv's additional findings on the kernel's threading system](https://gist.github.com/Subv/02f29bd9f1e5deb7aceea1e8f019c8f4) (meant to complement the relevant 3DBrew page)
-- [Simple hommebrew userland tests](https://github.com/wheremyfoodat/Panda3DS/tree/master/tests)
-- [DSP1 binary loader for Ghidra](https://github.com/SachinVin/Dsp1LoaderGhidra) (For DSP .cdc firmware files, you can dump them from hardware or Panda3DS)
-- [Teak DSP Ghidra SLEIGH plugin](https://github.com/SachinVin/TeakLite-SLEIGH/tree/main)
-- [Teakra](https://github.com/wwylele/teakra): Teak DSP assembly, disassembly and emulation library
-- [3DS hacking guide](https://3ds.hacks.guide/)
-- [Documentation of some system archives](https://github.com/B3n30/citra_system_archives) (Mii data, OS font, etc) and Python scripts for generating non-copyrighted replacements.
-
 ## Nintendo Entertainment System
 - See 65xx family resources
 - [6502 instruction set reference](https://www.masswerk.at/6502/6502_instruction_set.html)
@@ -166,48 +237,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Overview of writing a NES emulator](https://yizhang82.dev/nes-emu-overview)
 - [Articles on writing a NES emulator (among other things)](https://emudev.de/nes-emulator/overview)
 - [Sample ROMs](https://github.com/PeterLemon/NES)
-
-## Super Nintendo Entertainment System
-- See 65xx family resources
-- [fullsnes](https://problemkaputt.de/fullsnes.htm)
-- [65c816 primer](https://softpixel.com/~cwright/sianse/docs/65816NFO.HTM)
-- [L-Spiro's Ricoh 5A22 and SPC-700 instructions reference](https://github.com/L-Spiro/BirdSNES/tree/main/Research/Instructions)
-- [YouTube playlist](https://www.youtube.com/playlist?list=PLHQ0utQyFw5KCcj1ljIhExH_lvGwfn6GV)
-- [Adventures in Retro Development: SNES Edition](https://mynameismjp.wordpress.com/2019/01/14/adventures-in-retro-development-snes-edition) (focuses on homebrew development environment)
-- [Anomie's SNES docs](https://www.romhacking.net/?page=documents&platform=9&author=548)
-- [WIP Super Mario World disassembly](https://raw.githubusercontent.com/gnaghi/SMWDisC/master/SMWDisC.txt)
-- [SNES development wiki](https://wiki.superfamicom.org):
-  - [65c816 CPU reference](https://wiki.superfamicom.org/65816-reference)
-  - [SPC-700 APU reference](https://wiki.superfamicom.org/spc700-reference)
-  - [Capcom Cx4 coprocessor docs](https://wiki.superfamicom.org/capcom-cx4-hitachi-hg51b169)
-- Test ROMs:
-  - <https://gitlab.com/higan/snes-test-roms>
-  - <https://github.com/PeterLemon/SNES>
-  - [Blargg's SPC SNES test ROMs](https://forums.nesdev.org/viewtopic.php?f=12&t=18005)
-  - [More of Blargg's SNES test ROMs](https://web.archive.org/web/20150601173734/http://blargg.8bitalley.com/parodius/snes-tests)
-- [SNES sprite engine design guidelines](https://megacatstudios.com/blogs/retro-development/snes-sprite-engine-design-guidelines)
-- [SNES programming book](https://en.wikibooks.org/wiki/Super_NES_Programming)
-  - [Super FX tutorial](https://en.wikibooks.org/wiki/Super_NES_Programming/Super_FX_tutorial)
-
-## Nintendo Virtual Boy
-- [Some homebrew ROMs](https://www.virtual-boy.com/homebrew)
-- [Screen test ROM](https://www.virtual-boy.com/forums/t/virtual-boy-test-rom)
-- <https://files.virtual-boy.com/download/978651/stsvb.html>
-⠀
-## Nintendo 64
-- See MIPS resources
-- <https://n64.readthedocs.io>
-- <https://n64brew.dev>
-- [Notes and resources](https://github.com/Dillonb/n64-resources)
-- [Development resources](https://ultra64.ca/resources/documentation)
-- [Info on the N64's boot code](https://www.retroreversing.com/n64bootcode)
-- [Test ROMs](https://github.com/PeterLemon/N64)
-- [Fork of the above test ROMs, with a few more ones](https://github.com/fraser125/N64) (significantly outdated)
-- <https://github.com/lemmy-64/n64-systemtest>
-- [RSP docs](https://github.com/rasky/r64emu/blob/master/doc/rsp.md)
-- [Other resources](https://n64.dev)
-- 64DD: <https://github.com/LuigiBlood/64dd/wiki>
-- [Parallel-RDP](https://github.com/Themaister/parallel-rdp): RDP emulation plugin using Vulkan + compute shaders
 
 ## Nintendo GameCube / Nintendo Wii
 - See PowerPC resources
@@ -222,9 +251,30 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Dolwin docs](https://github.com/ogamespec/dolwin-docs)
 - [Wii hacking guide](https://wii.hacks.guide/)
 
+## Nintendo Virtual Boy
+- [Some homebrew ROMs](https://www.virtual-boy.com/homebrew)
+- [Screen test ROM](https://www.virtual-boy.com/forums/t/virtual-boy-test-rom)
+- <https://files.virtual-boy.com/download/978651/stsvb.html>
+
 ## Nintendo Wii U
 - See PowerPC resources
 - [WiiUBrew](https://wiiubrew.org/wiki/Main_Page)
+
+## Pac-Man
+- See Z80 resources
+- [Pac-Man emulation guide](https://www.lomont.org/software/games/pacman/PacmanEmulation.pdf)
+- [Disassembly](http://cubeman.org/arcade-source/pacman.asm)
+
+## PC Engine (TurboGrafx-16)
+- [HuC6280 Opcode Matrix](https://www.chrismcovell.com/PCEdev/HuC6280_opcodes.html)
+- [HuC6280 Opcode Documentation](http://shu.emuunlim.com/download/pcedocs/pce_cpu.html)
+- [Huc6280 Assembly Guide](https://www.chibiakumas.com/6502/pcengine.php)
+- [PC Engine Developer Docs](https://archive.org/details/PCEDev/Hu7%20CD%20System%20-%20BIOS%20Manual/)
+- [PC Engine Tech Docs](https://raw.githubusercontent.com/asterick/TurboSharp/refs/heads/master/Text/pcetech.txt)
+- [VDC Programmers Reference](https://datacrystal.tcrf.net/wiki/VDC_Programmers_Reference_(Turbo-Grafx_16))
+- [VDC Documentation](https://raw.githubusercontent.com/franckverrot/EmulationResources/refs/heads/master/consoles/pc-engine/vdcdox.txt)
+- [VDC Useful Timings](https://pcengine.proboards.com/post/7633/thread)
+- [MagicKit Docs of Hardware Registers](http://www.magicengine.com/mkit/)
 
 ## PlayStation 1
 - See MIPS resources
@@ -294,16 +344,13 @@ There are no "full" tutorials for other systems, so using references will be a b
 - VitaSDK Github repos with homebrew samples, a developer toolchain, and more: <https://github.com/vitasdk>
 - Guide for decompiling PS Vita SELFs with Ghidra: <https://forum.devchroma.nl/index.php?topic=88.0>
 
-## PC Engine (TurboGrafx-16)
-- [HuC6280 Opcode Matrix](https://www.chrismcovell.com/PCEdev/HuC6280_opcodes.html)
-- [HuC6280 Opcode Documentation](http://shu.emuunlim.com/download/pcedocs/pce_cpu.html)
-- [Huc6280 Assembly Guide](https://www.chibiakumas.com/6502/pcengine.php)
-- [PC Engine Developer Docs](https://archive.org/details/PCEDev/Hu7%20CD%20System%20-%20BIOS%20Manual/)
-- [PC Engine Tech Docs](https://raw.githubusercontent.com/asterick/TurboSharp/refs/heads/master/Text/pcetech.txt)
-- [VDC Programmers Reference](https://datacrystal.tcrf.net/wiki/VDC_Programmers_Reference_(Turbo-Grafx_16))
-- [VDC Documentation](https://raw.githubusercontent.com/franckverrot/EmulationResources/refs/heads/master/consoles/pc-engine/vdcdox.txt)
-- [VDC Useful Timings](https://pcengine.proboards.com/post/7633/thread)
-- [MagicKit Docs of Hardware Registers](http://www.magicengine.com/mkit/)
+## Pokémon Mini
+- <https://www.pokemon-mini.net/documentation>
+
+## PowerPC
+- [IBM's PowerPC Architecture Book](https://www.ibm.com/developerworks/systems/library/es-archguide-v2.html)
+- [PowerPC 750CL manual](https://github.com/wheremyfoodat/Panda3DS/blob/cdn/docs/ppc_750cl.pdf) (Mostly similar to the GC/Wii/Wii U CPUs)
+- [VMX128-type opcodes found on the Xbox 360 processor](http://biallas.net/doc/vmx128/vmx128.txt)
 
 ## Sega Game Gear
 - [VDP test ROM](https://www.retrorgb.com/game-gear-vdp-test-software.html)
@@ -370,72 +417,34 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [SH4 Processor Manual](https://raw.githubusercontent.com/Kochise/dreamcast-docs/master/CPU/DOCS/h14th002d2.pdf)
 - [ARM7DI Processor Manual](https://developer.arm.com/documentation/ddi0027/latest/)
 
+## Space Invaders
+- See 8080 resources
+- [SN76477N technical data](https://web.archive.org/web/20150425030455/http://www.emutalk.net/attachment.php?attachmentid=34143&d=1160668005)
+- [General info on Space Invaders](http://www.brentradio.com/SpaceInvaders.htm)
+- [Space Invaders disassembly and info](https://computerarcheology.com/Arcade/SpaceInvaders)
+- [CPU tests](https://altairclone.com/downloads/cpu_tests) (need a CP/M implementation or to fake it to some extent, see CP/M section and [this Discord message](https://discord.com/channels/465585922579103744/466417993912680459/735434453228191794))
 
-## Atari 8-bit Computers
-- [Altirra Hardware Reference Manual](https://www.virtualdub.org/downloads/Altirra%20Hardware%20Reference%20Manual.pdf)
-
-## Commodore 64
-- See 6502 resources in the [65xx family section](#65xx-family) (the C64 uses a 6510)
-- [MCS6500 family programming manual](http://archive.6502.org/books/mcs6500_family_programming_manual.pdf) (doesn't respond to https://)
-- Summary of single-cycle execution with the [6502 addressing modes](https://xotmatrix.github.io/6502/6502-single-cycle-execution.html)
-- [C64 wiki](https://www.c64-wiki.com)
-- [VICE test ROMs](https://vice-emu.pokefinder.org/index.php/Testbench)
-- [SID manual](http://archive.6502.org/datasheets/mos_6581_sid.pdf) (doesn't respond to https://)
-- [C64 assembly language programming](https://www.retro-programming.de)
-  - [Translated](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fwww.retro-programming.de)
-- [Scanline missing cycles](http://www.antimon.org/dl/c64/code/missing.txt)
-- [Opening the borders](http://www.antimon.org/dl/c64/code/opening.txt)
-- [Info on the VIC-II](http://www.zimmers.net/cbmpics/cbm/c64/vic-ii.txt)
-- [SID info](http://www.oxyron.de/html/registers_sid.html) (doesn't respond to https://)
-- Programming the C64's SID:
-  - [Part 1](https://www.atarimagazines.com/compute/issue49/424_1_Programming_64_Sound.php)
-  - [Part 2](https://www.atarimagazines.com/compute/issue50/277_1_Programming_64_Sound.php)
-- [6502 decimal mode](https://www.atarimagazines.com/compute/issue50/268_1_MACHINE_LANGUAGE.php)
-- [The Commodore 64 Music Book](https://archive.org/details/The_Commodore_64_Music_Book)
-- [C64 user's guide (start of sound chapter)](https://archive.org/details/Commodore_64_Users_Guide_1984_Commodore/page/n87)
-
-## Mac
-- See Motorola 68K / PowerPC resources
-- [Apple's guide to the macintosh family hardware](https://archive.org/details/apple-guide-macintosh-family-hardware) (400 MB pdf)
-- [Inside Macintosh Volume III](https://vintageapple.org/inside_o/pdf/Inside_Macintosh_Volume_III_1985.pdf)
-- [Macintosh error codes](https://discussions.apple.com/thread/1883152?sortBy=best)
-
-## MSX
-- See Z80 resources
-- [Test ROMs](https://github.com/PeterLemon/MSX)
-
-## ZX Spectrum
-- <https://spectrumforeveryone.com/technical>
-- <https://worldofspectrum.org/faq/resources/documents.htm>
-- [Krom's demos](https://github.com/PeterLemon/ZXSpectrum)
-- <https://github.com/redcode/ZXSpectrum/wiki/Tests>
-
-## Amiga
-- [Info on the Amiga and "Another World"](https://fabiensanglard.net/another_world_polygons_amiga500/index.html)
-
-## Xbox
-- [Xbox architecture](https://www.copetti.org/projects/consoles/xbox)
-
-## Neo Geo
-- [Development wiki](https://wiki.neogeodev.org/index.php?title=Main_Page) (has overviews of every piece of hardware)
-- [Sample ROMs](https://github.com/PeterLemon/NEO-GEO)
-
-## Neo Geo Pocket (Color)
-- [Toshiba TLCS-900/H CPU Manual](https://toshiba.semicon-storage.com/info/catalog_en_20010831_ALT00146.pdf?did=7768)
-- [TMP95CS64F Manual](https://datasheetspdf.com/pdf-file/1217217/Toshiba/TMP95CS64F/1) (thought to be the microcontroller the NGPC is based around)
-- [NGPC Memory Map/Technical Reference](https://github.com/OpenEmu/NeoPop-Core/blob/master/Core/docs/Memory%20Map.txt)
-  - Older similar documents:
-  - <http://neopocott.emuunlim.com/docs/tech-11.txt>
-  - <http://devrs.com/ngp/files/ngpctech.txt>
-- [Archive of More Resources](https://archive.org/details/neopop_source)
-- [Homebrew Development Kit](http://sebastianmihai.com/neogeo-pocket-ngcollector.html)
-- [More Homebrew](https://thor.pdroms.de/#ngpcdev)
-
-## V.Smile
-- <https://vtech.pulkomandy.tk/>
-
-## Pokémon Mini
-- <https://www.pokemon-mini.net/documentation>
+## Super Nintendo Entertainment System
+- See 65xx family resources
+- [fullsnes](https://problemkaputt.de/fullsnes.htm)
+- [65c816 primer](https://softpixel.com/~cwright/sianse/docs/65816NFO.HTM)
+- [L-Spiro's Ricoh 5A22 and SPC-700 instructions reference](https://github.com/L-Spiro/BirdSNES/tree/main/Research/Instructions)
+- [YouTube playlist](https://www.youtube.com/playlist?list=PLHQ0utQyFw5KCcj1ljIhExH_lvGwfn6GV)
+- [Adventures in Retro Development: SNES Edition](https://mynameismjp.wordpress.com/2019/01/14/adventures-in-retro-development-snes-edition) (focuses on homebrew development environment)
+- [Anomie's SNES docs](https://www.romhacking.net/?page=documents&platform=9&author=548)
+- [WIP Super Mario World disassembly](https://raw.githubusercontent.com/gnaghi/SMWDisC/master/SMWDisC.txt)
+- [SNES development wiki](https://wiki.superfamicom.org):
+  - [65c816 CPU reference](https://wiki.superfamicom.org/65816-reference)
+  - [SPC-700 APU reference](https://wiki.superfamicom.org/spc700-reference)
+  - [Capcom Cx4 coprocessor docs](https://wiki.superfamicom.org/capcom-cx4-hitachi-hg51b169)
+- Test ROMs:
+  - <https://gitlab.com/higan/snes-test-roms>
+  - <https://github.com/PeterLemon/SNES>
+  - [Blargg's SPC SNES test ROMs](https://forums.nesdev.org/viewtopic.php?f=12&t=18005)
+  - [More of Blargg's SNES test ROMs](https://web.archive.org/web/20150601173734/http://blargg.8bitalley.com/parodius/snes-tests)
+- [SNES sprite engine design guidelines](https://megacatstudios.com/blogs/retro-development/snes-sprite-engine-design-guidelines)
+- [SNES programming book](https://en.wikibooks.org/wiki/Super_NES_Programming)
+  - [Super FX tutorial](https://en.wikibooks.org/wiki/Super_NES_Programming/Super_FX_tutorial)
 
 ## Tamagotchi
 - [Tech specs and resources](https://tama.loociano.com)
@@ -443,7 +452,20 @@ There are no "full" tutorials for other systems, so using references will be a b
   - [Archive of linked article](https://web.archive.org/web/20180831183942/https://www.kwartzlab.ca/2013/05/first-glimpse-soul-tamagotchi)
   - [ROM dump GitHub repository](https://github.com/natashenka/Tamagotchi-Hack/tree/master/codedump)
 
-## Multiple systems
+## V.Smile
+- <https://vtech.pulkomandy.tk/>
+
+## Xbox
+- [Xbox architecture](https://www.copetti.org/projects/consoles/xbox)
+
+## ZX Spectrum
+- <https://spectrumforeveryone.com/technical>
+- <https://worldofspectrum.org/faq/resources/documents.htm>
+- [Krom's demos](https://github.com/PeterLemon/ZXSpectrum)
+- <https://github.com/redcode/ZXSpectrum/wiki/Tests>
+
+# Multiple systems
+- [Single Step Tests](https://github.com/SingleStepTests): Instruction tests for various CPUs in JSON format, mostly generated from emulators
 - <https://www.zophar.net/documents.html>
 - [http://www.emulator101.com](https://web.archive.org/web/20241010195903/http://www.emulator101.com/)
 - <http://hitmen.c02.at/index.html>
@@ -470,48 +492,16 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Instruction table](https://tobiasvl.github.io/optable/intel-8080/classic)
 - [Loading test ROMs that require a CP/M implementation/stub](https://discord.com/channels/465585922579103744/466417993912680459/735434453228191794)
 
-## Z80
-- [Z80 CPU User Manual](https://www.zilog.com/force_download.php?filepath=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0RBdlZVMHdNRGd3TG5Ca1pnPT0=)
-- [Z80 heaven](http://z80-heaven.wikidot.com)
-- [Z80 instruction table](http://clrhome.org/table)
-- [The undocumented Z80 documented](http://www.z80.info/zip/z80-documented.pdf)
-- [Z80 undocumented behavior](https://baltazarstudios.com/zilog-z80-undocumented-behavior)
-- [Z80 undocumented instructions](http://www.z80.info/z80undoc.htm)
-- [Z80 test ROMs](https://github.com/superzazu/z80/tree/master/roms)
-- [Loading test ROMs that require a CP/M implementation/stub](https://discord.com/channels/465585922579103744/466417993912680459/735434453228191794)
-- <https://github.com/redcode/Z80/wiki/Technical-literature>
-- <https://github.com/redcode/Z80/wiki/Tests>
-
-## Misc
-- [Single Step Tests](https://github.com/SingleStepTests): Instruction tests for various CPUs in JSON format, mostly generated from emulators
+## MIPS
+- [MIPS64 Instruction Set Reference Manual](https://s3-eu-west-1.amazonaws.com/downloads-mips/documents/MD00087-2B-MIPS64BIS-AFP-6.06.pdf)
+- [IDT R30xx Family Software Reference Manual](https://cgi.cse.unsw.edu.au/~cs3231/doc/R3000.pdf) (PS1 CPU, PS2 IOP)
+- [VR43xx CPU manual](http://datasheets.chipdb.org/NEC/Vr-Series/Vr43xx/U10504EJ7V0UMJ1.pdf) (Nintendo 64)
 
 ## Motorola 68k
 - [Instruction set reference](http://wpage.unina.it/rcanonic/didattica/ce1/docs/68000.pdf) (just a summary for each instruction, doesn't respond to https://)
 - [Programmer's reference manual](https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf)
 - [Instruction overview](http://goldencrystal.free.fr/M68kOpcodes.pdf)
 - [Prefetch information](http://pasti.fxatari.com/68kdocs/68kPrefetch.html)
-
-## PowerPC
-- [IBM's PowerPC Architecture Book](https://www.ibm.com/developerworks/systems/library/es-archguide-v2.html)
-- [PowerPC 750CL manual](https://github.com/wheremyfoodat/Panda3DS/blob/cdn/docs/ppc_750cl.pdf) (Mostly similar to the GC/Wii/Wii U CPUs)
-- [VMX128-type opcodes found on the Xbox 360 processor](http://biallas.net/doc/vmx128/vmx128.txt)
-
-## ARM
-- [ARM instruction set info for the ARM7TDMI-S](https://vision.gel.ulaval.ca/~jflalonde/cours/1001/h17/docs/arm-instructionset.pdf) (not the full document, which apparently can't be found anymore)
-- [ARM7TDMI datasheet](https://www.dwedit.org/files/ARM7TDMI.pdf) (contains info about ARM and thumb instruction sets)
-- [ARM7TDMI Technical Reference Manual](https://documentation-service.arm.com/static/5f4786a179ff4c392c0ff819)
-- [ARM7TDMI-S Technical Reference Manual](https://documentation-service.arm.com/static/5e8e13a9fd977155116a3368) (doesn't contain instruction descriptions, but has info on timing)
-- [ARMv5TE Reference Manual](https://web.archive.org/web/20231212000012/https://cdn.discordapp.com/attachments/667132407262216272/733255145495986246/ARMv5TE_reference_manual.pdf) (contains a few corrections to the original documents)
-- [ARM9E-S Technical Reference Manual](https://documentation-service.arm.com/static/5e8e2f18fd977155116a77fb) (contains info on timing that applies to all ARM9\*E-S processors)
-- [ARM946E-S Technical Reference Manual](https://documentation-service.arm.com/static/5f032835cafe527e86f5b8ad)
-- [ARMv6 Reference Manual](https://www.scs.stanford.edu/~zyedidia/docs/arm/armv6.pdf)
-- [ARMv7-A/R Reference Manual](https://documentation-service.arm.com/static/5f1074ce0daa596235e834b5)
-- [ARM11 MPCore Technical Reference Manual](https://documentation-service.arm.com/static/5e8e1e0388295d1e18d368b2)
-
-## ARM64
-- [ARMv8 and ARMv9 A-Profile Architecture manual](https://developer.arm.com/documentation/ddi0487/latest/)
-- [ARM64 cheatsheet](https://github.com/wheremyfoodat/Panda3DS/blob/cdn/docs/arm64_cheat_sheet.pdf)
-- [NEON intrinsic reference](https://arm-software.github.io/acle/neon_intrinsics/advsimd.html)
 
 ## x86
 - [8086 family user's manual](https://edge.edx.org/c4x/BITSPilani/EEE231/asset/8086_family_Users_Manual_1_.pdf)
@@ -530,13 +520,22 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [x86-64 opcode table](http://ref.x86asm.net/coder64.html)
 - [OSDev wiki encoding page](https://wiki.osdev.org/X86-64_Instruction_Encoding)
 
-## MIPS
-- [MIPS64 Instruction Set Reference Manual](https://s3-eu-west-1.amazonaws.com/downloads-mips/documents/MD00087-2B-MIPS64BIS-AFP-6.06.pdf)
-- [IDT R30xx Family Software Reference Manual](https://cgi.cse.unsw.edu.au/~cs3231/doc/R3000.pdf) (PS1 CPU, PS2 IOP)
-- [VR43xx CPU manual](http://datasheets.chipdb.org/NEC/Vr-Series/Vr43xx/U10504EJ7V0UMJ1.pdf) (Nintendo 64)
+## Z80
+- [Z80 CPU User Manual](https://www.zilog.com/force_download.php?filepath=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0RBdlZVMHdNRGd3TG5Ca1pnPT0=)
+- [Z80 heaven](http://z80-heaven.wikidot.com)
+- [Z80 instruction table](http://clrhome.org/table)
+- [The undocumented Z80 documented](http://www.z80.info/zip/z80-documented.pdf)
+- [Z80 undocumented behavior](https://baltazarstudios.com/zilog-z80-undocumented-behavior)
+- [Z80 undocumented instructions](http://www.z80.info/z80undoc.htm)
+- [Z80 test ROMs](https://github.com/superzazu/z80/tree/master/roms)
+- [Loading test ROMs that require a CP/M implementation/stub](https://discord.com/channels/465585922579103744/466417993912680459/735434453228191794)
+- <https://github.com/redcode/Z80/wiki/Technical-literature>
+- <https://github.com/redcode/Z80/wiki/Tests>
 
-**Contributing**
+# Contributing
 
 Have something to add to this list? Submit a pull request [here](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_systems.md).
+
+When adding new sections, please maintain alphanumerical ordering.
 
 **Note: If you're new here, scroll up to the [top](#system-specific-resources)!**
