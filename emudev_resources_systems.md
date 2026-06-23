@@ -464,19 +464,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Krom's demos](https://github.com/PeterLemon/ZXSpectrum)
 - <https://github.com/redcode/ZXSpectrum/wiki/Tests>
 
-# Multiple systems
-- [Single Step Tests](https://github.com/SingleStepTests): Instruction tests for various CPUs in JSON format, mostly generated from emulators
-- <https://www.zophar.net/documents.html>
-- [http://www.emulator101.com](https://web.archive.org/web/20241010195903/http://www.emulator101.com/)
-- <http://hitmen.c02.at/index.html>
-- <http://www.codeslinger.co.uk> (doesn't respond to https://, disable extensions such as HTTPS Everywhere if it doesn't load)
-- <https://emudev.de>
-- Shonumi's blog: <https://shonumi.github.io>
-- Shell-storm multi-architecture assembler and disassembler: <http://shell-storm.org/online/Online-Assembler-and-Disassembler>
-- 8bitworkshop IDE: <https://8bitworkshop.com/redir.html>
-- A list of helpful patents for various systems, include Gamecube, Wii, N64 and more: <https://gist.github.com/sylvieee-iot/5636d376302569833b0787abc62b7758>
-- 240p test suite, supporting multiple systems: <https://sourceforge.net/projects/testsuite240p/files/Sega_Genesis-MegaDrive-SegaCD_MegaCD>
-
 # Processors and architectures
 
 ## 65xx family
@@ -531,6 +518,19 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [Loading test ROMs that require a CP/M implementation/stub](https://discord.com/channels/465585922579103744/466417993912680459/735434453228191794)
 - <https://github.com/redcode/Z80/wiki/Technical-literature>
 - <https://github.com/redcode/Z80/wiki/Tests>
+
+# Multiple systems
+- [Single Step Tests](https://github.com/SingleStepTests): Instruction tests for various CPUs in JSON format, mostly generated from emulators
+- <https://www.zophar.net/documents.html>
+- [http://www.emulator101.com](https://web.archive.org/web/20241010195903/http://www.emulator101.com/)
+- <http://hitmen.c02.at/index.html>
+- <http://www.codeslinger.co.uk> (doesn't respond to https://, disable extensions such as HTTPS Everywhere if it doesn't load)
+- <https://emudev.de>
+- Shonumi's blog: <https://shonumi.github.io>
+- Shell-storm multi-architecture assembler and disassembler: <http://shell-storm.org/online/Online-Assembler-and-Disassembler>
+- 8bitworkshop IDE: <https://8bitworkshop.com/redir.html>
+- A list of helpful patents for various systems, include Gamecube, Wii, N64 and more: <https://gist.github.com/sylvieee-iot/5636d376302569833b0787abc62b7758>
+- 240p test suite, supporting multiple systems: <https://sourceforge.net/projects/testsuite240p/files/Sega_Genesis-MegaDrive-SegaCD_MegaCD>
 
 # Contributing
 
