@@ -1,6 +1,6 @@
 # System-specific Resources
 
-Below are some useful resources for various popular systems. If you're unsure what you want to work on we recommend starting with a [**CHIP-8**](#chip-8) tutorial, of which there are many (just Google it).
+Below are some useful resources for various popular systems. If you're unsure what you want to work on we recommend starting with a [**CHIP-8**](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_systems.md#chip-8) tutorial, of which there are many (just Google it).
 
 After that, move to whatever system you want to. You don't need to "work your way up" to it or whatever as many seem to think. ([relevant thread](https://reddit.com/r/EmuDev/comments/8ve8lu/i_give_up_some_ramblings_of_someone_who_took_over/e1muyme/?context=3)). Just make sure you have the basics down first, remember to study the source code of existing emulators (super important) and if you get stuck, ask questions on this server or in the emudev subreddit: <https://reddit.com/r/EmuDev>.
 
@@ -538,4 +538,4 @@ Have something to add to this list? Submit a pull request [here](https://github.
 
 When adding new sections, please maintain alphanumerical ordering.
 
-**Note: If you're new here, scroll up to the [top](#system-specific-resources)!**
+**Note: If you're new here, scroll up to the [top](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_systems.md#system-specific-resources)!**
