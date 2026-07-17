@@ -251,6 +251,7 @@ There are no "full" tutorials for other systems, so using references will be a b
   - <https://github.com/JaCzekanski/ps1-tests>
   - <https://github.com/simias/psx-hardware-tests/tree/master/tests>
   - <https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips/tests>
+  - <https://github.com/ABelliqueux/nolibgs_hello_worlds>
   - [PSX demos](https://www.pouet.net/prodlist.php?order=thumbup&platform%5B0%5D=Playstation&page=1)
 - Open-source BIOS: <https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips/openbios>
 
