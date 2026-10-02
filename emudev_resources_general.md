@@ -106,7 +106,7 @@ For emulating 3D systems.
 
 ### Audio
 - <https://nicolasallemand.com/2019/12/12/let-there-be-sound>
-- <https://redream.io/posts/improving-audio-video-synchronization-multi-sync>
+- [https://redream.io/posts/improving-audio-video-synchronization-multi-sync](https://web.archive.org/web/20260628020101/https://redream.io/posts/improving-audio-video-synchronization-multi-sync)
 
 ### FPGAs
 - <https://zipcpu.com>
