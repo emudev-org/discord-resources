@@ -248,6 +248,7 @@ There are no "full" tutorials for other systems, so using references will be a b
 - [GC/Wii games that use the Zelda DSP microcode](https://wiki.dolphin-emu.org/index.php?title=Category:Zelda_ucode_games)
 - [Gekko/Broadway/Espresso Ghidra plugin](https://github.com/aldelaro5/ghidra-gekko-broadway-lang)
 - [DSP HLE (Dolphin)](https://blog.lse.epita.fr/2012/12/03/emulating-the-gamecube-audio-processing-in-dolphin.html)
+- [*Gamecube DSP Users Manual* by Dolphin (prebuilt PDF)](https://github.com/extremscorner/gamecube-tools/blob/master/doc/GC_DSP.pdf), [TeX source](https://github.com/dolphin-emu/dolphin/blob/master/docs/DSP/GameCube_DSP_Users_Manual/GameCube_DSP_Users_Manual.tex)
 - [Dolwin docs](https://github.com/ogamespec/dolwin-docs)
 - [Wii hacking guide](https://wii.hacks.guide/)
 
