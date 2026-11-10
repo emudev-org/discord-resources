@@ -535,7 +535,6 @@ There are no "full" tutorials for other systems, so using references will be a b
 - 240p test suite, supporting multiple systems: <https://sourceforge.net/projects/testsuite240p/files/Sega_Genesis-MegaDrive-SegaCD_MegaCD>
 
 # Contributing
-
 Have something to add to this list? Submit a pull request [here](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_systems.md).
 
 When adding new sections, please maintain alphanumerical ordering.

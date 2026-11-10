@@ -201,9 +201,7 @@ The standard tool that's cross-platform and supports many architectures is **gdb
 
 ---
 
-**Contributing**
-
+# Contributing
 Have something to add to this list? Submit a pull request [here](https://github.com/emudev-org/discord-resources/blob/main/emudev_resources_general.md).
-
 
 **Note: If you're new here, scroll up to the top!**
